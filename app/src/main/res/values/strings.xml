@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Qwit</string>
+
+    <string name="home">Home</string>
+    <string name="love">Love</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="mail">Mail</string>
+    <string name="account">Account</string>
+
+    <!-- Test Tags -->
+    <string name="tt_home_screen_center_image">Home Screen Center Image</string>
+    <string name="tt_love_screen_center_image">Love Screen Center Image</string>
+    <string name="tt_bookmark_screen_center_image">Bookmark Screen Center Image</string>
+    <string name="tt_mail_screen_center_image">Mail Screen Center Image</string>
+    <string name="tt_account_screen_center_image">Account Screen Center Image</string>
+
+    <string name="tt_bottom_nav">Bottom Navigation Bar</string>
+    <string name="tt_floating_button">Floating button</string>
+</resources>
