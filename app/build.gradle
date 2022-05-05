@@ -62,6 +62,10 @@ dependencies {
     testImplementation Testing.junit
     androidTestImplementation Testing.junitExt
     androidTestImplementation Testing.espressoCore
+    androidTestImplementation(Testing.espressoAccessibility) {
+        exclude group: 'org.checkerframework', module: 'checker'
+    }
+    androidTestImplementation Testing.testRunner
     androidTestImplementation Compose.composeJunit
     debugImplementation Compose.composeUiTooling
     debugImplementation Compose.composeManifestTest

@@ -14,6 +14,8 @@ object Versions {
     const val ktlint_version = "0.42.1"
     const val spotless_version = "6.1.2"
     const val koin_version = "3.1.5"
+    const val espresso_version = "3.4.0"
+    const val test_runner_version = "1.5.0-alpha03"
 }
 
 object Koin {
@@ -38,10 +40,12 @@ object Timber {
 }
 
 object Testing {
+    const val testRunner = "androidx.test:runner:${Versions.test_runner_version}"
     const val testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     const val junit = "junit:junit:4.13.2"
     const val junitExt = "androidx.test.ext:junit:1.1.3"
-    const val espressoCore = "androidx.test.espresso:espresso-core:3.4.0"
+    const val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espresso_version}"
+    const val espressoAccessibility = "androidx.test.espresso:espresso-accessibility:${Versions.espresso_version}"
 }
 
 object Compose {
