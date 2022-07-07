@@ -1,7 +1,13 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.spotify.ruler'
+    id 'org.jetbrains.kotlin.kapt'
 }
+
+def oauthKeyFile = rootProject.file("oauth_keys.properties")
+def oauthKeys = new Properties()
+oauthKeys.load(new FileInputStream(oauthKeyFile))
 
 android {
     compileSdk AppConfig.appCompileSdkVersion
@@ -12,6 +18,18 @@ android {
         targetSdk AppConfig.appTargetSdk
         versionCode AppConfig.appVersionCode
         versionName AppConfig.appVersionName
+
+        buildConfigField("String", "CONSUMER_KEY", oauthKeys['CONSUMER_KEY'])
+        buildConfigField("String", "CONSUMER_SECRET", oauthKeys['CONSUMER_SECRET'])
+        buildConfigField("String", "ACCESS_TOKEN", oauthKeys['ACCESS_TOKEN'])
+        buildConfigField("String", "ACCESS_SECRET", oauthKeys['ACCESS_SECRET'])
+        buildConfigField("String", "CALLBACK_SCHEME", oauthKeys['CALLBACK_SCHEME'])
+        buildConfigField("String", "CALLBACK_URL", oauthKeys['CALLBACK_URL'])
+        buildConfigField("String", "OAUTH_VERIFIER", oauthKeys['OAUTH_VERIFIER'])
+        buildConfigField("String", "OAUTH_TOKEN", oauthKeys['OAUTH_TOKEN'])
+        buildConfigField("String", "OAUTH_TOKEN_SECRET", oauthKeys['OAUTH_TOKEN_SECRET'])
+        buildConfigField("String", "USER_ID", oauthKeys['USER_ID'])
+        buildConfigField("String", "SCREEN_NAME", oauthKeys['SCREEN_NAME'])
 
         testInstrumentationRunner Testing.testInstrumentationRunner
         vectorDrawables {
@@ -59,13 +77,29 @@ dependencies {
     implementation Compose.composeMaterial
     implementation Compose.composePreviewTool
     implementation LifeCycle.lifeCycle
+    implementation Retrofit.retrofit
+    implementation Retrofit.moshConverter
+    kapt Retrofit.moshiKotlinCodegen
+    implementation Retrofit.moshiKotlin
+    implementation(enforcedPlatform(OkHttp.okttpBom))
+    implementation DataStore.dataStorePreferences
     testImplementation Testing.junit
+    testImplementation Koin.koinTest
+    testImplementation Testing.mockitoCore
     androidTestImplementation Testing.junitExt
     androidTestImplementation Testing.espressoCore
     androidTestImplementation Compose.composeJunit
     debugImplementation Compose.composeUiTooling
     debugImplementation Compose.composeManifestTest
-    implementation 'com.google.accompanist:accompanist-navigation-animation:0.23.0'
-    implementation 'androidx.navigation:navigation-compose:2.4.1'
-    implementation 'androidx.navigation:navigation-common:2.4.1'
+    implementation Compose.composeAccompanistNavigationAnimation
+    implementation Compose.composeNavigation
+    implementation Compose.composeNavigationCommon
+    implementation Retrofit.ethernet
+}
+
+ruler {
+    abi.set("arm64-v8a")
+    locale.set("en")
+    screenDensity.set(480)
+    sdkVersion.set(30)
 }
