@@ -14,3 +14,6 @@ fun ComponentActivity.navigateOneWayTo(toActivity: Class<*>) {
     this.startActivity(intent)
     this.finish()
 }
+
+fun String?.orString(text: String): String =
+    if (this != null && this.isNotBlank() && this.isNotEmpty()) this else text

@@ -20,8 +20,6 @@ object Versions {
     const val retrofit_version = "2.9.0"
     const val okhttp_bom_version = "4.9.3"
     const val mockito_version = "4.5.1"
-    const val ethernet = "1.2.1"
-    const val moshi_kotlin = "1.12.0"
 }
 
 object Koin {
@@ -48,11 +46,7 @@ object Timber {
 
 object Retrofit {
     const val retrofit = "com.squareup.retrofit2:retrofit:${Versions.retrofit_version}"
-    const val moshi = "com.squareup.moshi:moshi:1.12.0"
-    const val moshiKotlinCodegen = "com.squareup.moshi:moshi-kotlin-codegen:${Versions.moshi_kotlin}"
-    const val moshiKotlin = "com.squareup.moshi:moshi-kotlin:${Versions.moshi_kotlin}"
     const val moshConverter = "com.squareup.retrofit2:converter-moshi:${Versions.retrofit_version}"
-    const val ethernet = "com.slack.eithernet:eithernet:${Versions.ethernet}"
 }
 
 object OkHttp {

@@ -1,9 +1,7 @@
 package com.jonecx.qwit.model
 
 import com.squareup.moshi.Json
-import com.squareup.moshi.JsonClass
 
-@JsonClass(generateAdapter = true)
 data class UserInfo(
     @Json(name = "id")
     val id: Int,
@@ -18,7 +16,7 @@ data class UserInfo(
     @Json(name = "description")
     val description: String,
     @Json(name = "url")
-    val url: Any,
+    val url: String,
     @Json(name = "entities")
     val entities: Entities,
     @Json(name = "protected")

@@ -4,15 +4,11 @@ import android.net.Uri
 import androidx.lifecycle.ViewModel
 import com.jonecx.qwit.BuildConfig
 import com.jonecx.qwit.datasource.QwitClient
+import com.jonecx.qwit.model.UserInfo
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthAccessTokenAndSecretReady
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthTokenReady
 import com.jonecx.qwit.util.Result
 import com.jonecx.qwit.util.Result.Error
-import com.slack.eithernet.ApiResult
-import com.slack.eithernet.ApiResult.Failure.ApiFailure
-import com.slack.eithernet.ApiResult.Failure.HttpFailure
-import com.slack.eithernet.ApiResult.Failure.NetworkFailure
-import com.slack.eithernet.ApiResult.Failure.UnknownFailure
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
@@ -40,24 +36,16 @@ class LoginViewModel(
                 qwitClient.authService().getAccessTokenAndSecret(oauthVerifier, oauthToken).execute().body()?.let { body ->
                     val oauthStep = OauthAccessTokenAndSecretReady(body.string())
                     settingsViewModel.saveAuthenticationResult(Result.Success(oauthStep))
-                    qwitClient.refresh()
+                    qwitClient.refreshTokens()
                     emit(Result.Success(oauthStep))
                 } ?: emit(handleError("Authentication failed"))
             }
         }
     }.catch { e -> emit(handleError(e)) }.flowOn(Dispatchers.IO)
 
-    fun getUserId() = flow {
-        when (val rms = qwitClient.authService().getAccountCredentials()) {
-            is ApiResult.Success -> emit(Result.Success(rms.value))
-            is ApiResult.Failure -> emit(
-                when (rms) {
-                    is HttpFailure -> handleError("failed with status code: ${rms.code}")
-                    is ApiFailure -> handleError("Api call failed")
-                    is NetworkFailure -> handleError(rms.error)
-                    is UnknownFailure -> handleError(rms.error)
-                }
-            )
+    fun getUserId() = flow<Result<UserInfo>> {
+        qwitClient.authService().getAccountCredentials().let {
+            emit(Result.Success(it))
         }
     }.catch { e -> emit(handleError(e)) }.flowOn(Dispatchers.IO)
 

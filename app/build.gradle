@@ -2,7 +2,6 @@ plugins {
     id 'com.android.application'
     id 'kotlin-android'
     id 'com.spotify.ruler'
-    id 'org.jetbrains.kotlin.kapt'
 }
 
 def oauthKeyFile = rootProject.file("oauth_keys.properties")
@@ -19,6 +18,7 @@ android {
         versionCode AppConfig.appVersionCode
         versionName AppConfig.appVersionName
 
+        buildConfigField("String", "API_HOST", oauthKeys['API_HOST'])
         buildConfigField("String", "CONSUMER_KEY", oauthKeys['CONSUMER_KEY'])
         buildConfigField("String", "CONSUMER_SECRET", oauthKeys['CONSUMER_SECRET'])
         buildConfigField("String", "ACCESS_TOKEN", oauthKeys['ACCESS_TOKEN'])
@@ -50,6 +50,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
         useIR = true
+        freeCompilerArgs += "-Xopt-in=kotlin.RequiresOptIn"
     }
     buildFeatures {
         compose true
@@ -79,8 +80,6 @@ dependencies {
     implementation LifeCycle.lifeCycle
     implementation Retrofit.retrofit
     implementation Retrofit.moshConverter
-    kapt Retrofit.moshiKotlinCodegen
-    implementation Retrofit.moshiKotlin
     implementation(enforcedPlatform(OkHttp.okttpBom))
     implementation DataStore.dataStorePreferences
     testImplementation Testing.junit
@@ -94,7 +93,6 @@ dependencies {
     implementation Compose.composeAccompanistNavigationAnimation
     implementation Compose.composeNavigation
     implementation Compose.composeNavigationCommon
-    implementation Retrofit.ethernet
 }
 
 ruler {
