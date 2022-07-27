@@ -25,6 +25,7 @@ open class QwitTest {
     protected val appName = "Qwit"
 
     protected val analytics = FirebaseAnalytics()
+
     protected val appContext: Context = InstrumentationRegistry.getInstrumentation().targetContext
 
     @Before

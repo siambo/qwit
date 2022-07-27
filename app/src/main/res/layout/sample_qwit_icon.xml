@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.jonecx.qwit.views.QwitIcon
+    <com.jonecx.qwit.ui.views.QwitIcon
         style="@style/Widget.Theme.Qwit.MyView"
         android:layout_width="300dp"
         android:layout_height="300dp"

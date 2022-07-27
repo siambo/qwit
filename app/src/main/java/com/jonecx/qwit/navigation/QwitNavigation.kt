@@ -7,12 +7,12 @@ import androidx.navigation.NavGraphBuilder
 import androidx.navigation.NavHostController
 import com.google.accompanist.navigation.animation.AnimatedNavHost
 import com.google.accompanist.navigation.animation.navigation
+import com.jonecx.qwit.ui.views.screen.AccountScreen
+import com.jonecx.qwit.ui.views.screen.BookmarkScreen
+import com.jonecx.qwit.ui.views.screen.LoveScreen
+import com.jonecx.qwit.ui.views.screen.MailScreen
 import com.jonecx.qwit.util.Analytics
 import com.jonecx.qwit.util.composable
-import com.jonecx.qwit.views.screen.AccountScreen
-import com.jonecx.qwit.views.screen.BookmarkScreen
-import com.jonecx.qwit.views.screen.LoveScreen
-import com.jonecx.qwit.views.screen.MailScreen
 
 @ExperimentalAnimationApi
 @Composable

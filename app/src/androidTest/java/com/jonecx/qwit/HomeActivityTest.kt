@@ -3,7 +3,7 @@ package com.jonecx.qwit
 import androidx.annotation.StringRes
 import androidx.compose.animation.ExperimentalAnimationApi
 import com.jonecx.qwit.ui.theme.QwitTheme
-import com.jonecx.qwit.views.screen.HomeFrame
+import com.jonecx.qwit.ui.views.screen.HomeFrame
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -20,7 +20,7 @@ class HomeActivityTest : QwitTest() {
     fun testHomeFrame() {
         composeTestRule.setContent {
             QwitTheme {
-                HomeFrame(analytics)
+                HomeFrame(analytics, authenticateDao = authenticateDao)
             }
         }
 
