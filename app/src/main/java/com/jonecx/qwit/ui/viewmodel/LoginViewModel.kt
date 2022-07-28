@@ -4,7 +4,7 @@ import android.net.Uri
 import androidx.lifecycle.ViewModel
 import com.jonecx.qwit.BuildConfig
 import com.jonecx.qwit.datasource.QwitClient
-import com.jonecx.qwit.model.UserInfo
+import com.jonecx.qwit.model.User
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthAccessTokenAndSecretReady
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthTokenReady
 import com.jonecx.qwit.util.Result
@@ -43,7 +43,7 @@ class LoginViewModel(
         }
     }.catch { e -> emit(handleError(e)) }.flowOn(Dispatchers.IO)
 
-    fun getUserId() = flow<Result<UserInfo>> {
+    fun getUserId() = flow<Result<User>> {
         qwitClient.authService().getAccountCredentials().let {
             emit(Result.Success(it))
         }

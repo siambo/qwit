@@ -3,14 +3,14 @@ package com.jonecx.qwit.model
 import com.squareup.moshi.Json
 
 data class Mention(
-    @Json(name = "id")
+    @field:Json(name = "id")
     val id: Long,
-    @Json(name = "id_str")
+    @field:Json(name = "id_str")
     val idStr: String,
-    @Json(name = "indices")
+    @field:Json(name = "indices")
     val indices: List<Int>,
-    @Json(name = "name")
+    @field:Json(name = "name")
     val name: String,
-    @Json(name = "screen_name")
+    @field:Json(name = "screen_name")
     val screenName: String
 )

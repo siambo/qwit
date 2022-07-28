@@ -3,8 +3,8 @@ package com.jonecx.qwit.model
 import com.squareup.moshi.Json
 
 data class Option(
-    @Json(name = "position")
+    @field:Json(name = "position")
     val position: Int,
-    @Json(name = "text")
+    @field:Json(name = "text")
     val text: String
 )

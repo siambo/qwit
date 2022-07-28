@@ -5,16 +5,16 @@ import com.jonecx.qwit.model.media.Url
 import com.squareup.moshi.Json
 
 data class Entities(
-    @Json(name = "hashtags")
+    @field:Json(name = "hashtags")
     val hashtags: List<Hashtag>,
-    @Json(name = "media")
+    @field:Json(name = "media")
     val media: List<Media>,
-    @Json(name = "urls")
+    @field:Json(name = "urls")
     val urls: List<Url>,
-    @Json(name = "user_mentions")
+    @field:Json(name = "user_mentions")
     val mentions: List<Mention>,
-    @Json(name = "symbols")
+    @field:Json(name = "symbols")
     val symbols: List<Symbol>,
-    @Json(name = "polls")
+    @field:Json(name = "polls")
     val polls: List<Poll>
 )

@@ -4,8 +4,8 @@ import com.jonecx.qwit.model.media.Url
 import com.squareup.moshi.Json
 
 data class UserEntity(
-    @Json(name = "urls")
+    @field:Json(name = "urls")
     var urls: List<Url>,
-    @Json(name = "description")
+    @field:Json(name = "description")
     var description: Description
 )

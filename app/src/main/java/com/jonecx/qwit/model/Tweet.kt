@@ -3,70 +3,70 @@ package com.jonecx.qwit.model
 import com.squareup.moshi.Json
 
 data class Tweet(
-    @Json(name = "created_at")
+    @field:Json(name = "created_at")
     val createdAt: String,
-    @Json(name = "id")
+    @field:Json(name = "id")
     val id: Long,
-    @Json(name = "id_str")
+    @field:Json(name = "id_str")
     val idStr: String,
-    @Json(name = "text")
+    @field:Json(name = "text")
     val text: String,
-    @Json(name = "truncated")
+    @field:Json(name = "truncated")
     val isTruncated: Boolean,
-    @Json(name = "entities")
+    @field:Json(name = "entities")
     val entities: Entities,
-    @Json(name = "extended_entities")
+    @field:Json(name = "extended_entities")
     val extendedEntities: ExtendedEntities,
-    @Json(name = "source")
+    @field:Json(name = "source")
     val source: String,
-    @Json(name = "in_reply_to_status_id")
+    @field:Json(name = "in_reply_to_status_id")
     val inReplyToStatusId: Long?,
-    @Json(name = "in_reply_to_status_id_str")
+    @field:Json(name = "in_reply_to_status_id_str")
     val inReplyToStatusIdStr: String?,
-    @Json(name = "in_reply_to_user_id")
+    @field:Json(name = "in_reply_to_user_id")
     val inReplyToUserId: Long?,
-    @Json(name = "in_reply_to_user_id_str")
+    @field:Json(name = "in_reply_to_user_id_str")
     val inReplyToUserIdStr: String?,
-    @Json(name = "in_reply_to_screen_name")
+    @field:Json(name = "in_reply_to_screen_name")
     val inReplyToScreenName: String?,
-    @Json(name = "user")
+    @field:Json(name = "user")
     val user: User?,
-    @Json(name = "geo")
+    @field:Json(name = "geo")
     val geo: Geo?,
-    @Json(name = "coordinates")
+    @field:Json(name = "coordinates")
     val coordinates: Coordinates?,
-    @Json(name = "place")
+    @field:Json(name = "place")
     val place: Place?,
-    @Json(name = "contributors")
+    @field:Json(name = "contributors")
     val contributors: String?,
-    @Json(name = "quoted_status_id")
+    @field:Json(name = "quoted_status_id")
     val quotedStatusId: Long?,
-    @Json(name = "quoted_status_id_str")
+    @field:Json(name = "quoted_status_id_str")
     val quotedStatusIdStr: String?,
-    @Json(name = "is_quote_status")
+    @field:Json(name = "is_quote_status")
     val isQuoteStatus: Boolean,
-    @Json(name = "quote_count")
+    @field:Json(name = "quote_count")
     val quotedCount: Int?,
-    @Json(name = "quoted_status")
+    @field:Json(name = "quoted_status")
     val qoutedStatus: Tweet?,
-    @Json(name = "reply_count")
+    @field:Json(name = "reply_count")
     val replyCount: Int?,
-    @Json(name = "retweeted_status")
+    @field:Json(name = "retweeted_status")
     val retweetedStatus: Tweet?,
-    @Json(name = "retweet_count")
+    @field:Json(name = "retweet_count")
     val retweetCount: String?,
-    @Json(name = "favorite_count")
+    @field:Json(name = "favorite_count")
     val favoriteCount: Int?,
-    @Json(name = "favorited")
+    @field:Json(name = "favorited")
     val isFavorited: Boolean,
-    @Json(name = "retweeted")
+    @field:Json(name = "retweeted")
     val isRetweeted: Boolean,
-    @Json(name = "possibly_sensitive")
+    @field:Json(name = "possibly_sensitive")
     val isSensitive: Boolean,
-    @Json(name = "filter_level")
+    @field:Json(name = "filter_level")
     val filterLevel: FilterLevel,
-    @Json(name = "lang")
+    @field:Json(name = "lang")
     val lang: String?,
-    @Json(name = "matching_rules")
+    @field:Json(name = "matching_rules")
     val matchingRule: MatchingRule?
 )
