@@ -96,7 +96,7 @@ data class UserInfo(
     @Json(name = "needs_phone_verification")
     val needsPhoneVerification: Boolean
 ) {
-    data class Entities(
+/*    data class Entities(
         @Json(name = "description")
         val description: Description
     ) {
@@ -104,7 +104,7 @@ data class UserInfo(
             @Json(name = "urls")
             val urls: List<Any>
         )
-    }
+    }*/
 
     data class Status(
         @Json(name = "created_at")
