@@ -18,7 +18,7 @@ fun QwitApp(
         QwitBackground {
             appState.let {
                 when (it.onboardState) {
-                    NavigateToSplash -> SplashScreen()
+                    NavigateToSplash -> StartingScreen()
                     NavigateToSession -> SessionScreen(appState = it)
                     NavigateToOnboarding -> OnboardScreen(appState = it)
                 }

@@ -97,6 +97,7 @@ dependencies {
     debugImplementation Compose.composeUiTooling
     debugImplementation Compose.composeManifestTest
     implementation Tracing.tracing
+    implementation Splash.splashScreen
 }
 
 ruler {

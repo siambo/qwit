@@ -88,7 +88,7 @@ private fun SetStage(appState: QwitAppState) {
                     else -> ErrorView()
                 }
             }
-            is Loading -> SplashScreen()
+            is Loading -> StartingScreen()
             is Error -> ErrorView()
         }
     }

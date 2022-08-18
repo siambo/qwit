@@ -90,3 +90,7 @@ object DataStore {
 object Tracing {
     const val tracing = "androidx.tracing:tracing-ktx:1.1.0"
 }
+
+object Splash {
+    const val splashScreen = "androidx.core:core-splashscreen:1.0.0"
+}
