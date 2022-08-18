@@ -1,19 +1,14 @@
 package com.jonecx.qwit.util
 
-import android.content.Intent
 import android.net.Uri
-import androidx.activity.ComponentActivity
+import android.os.Build
 import com.jonecx.qwit.BuildConfig
 
 fun Uri?.isAuthCallback(): Boolean {
     return this != null && this.toString().contains(BuildConfig.CALLBACK_URL)
 }
 
-fun ComponentActivity.navigateOneWayTo(toActivity: Class<*>) {
-    val intent = Intent(this, toActivity)
-    this.startActivity(intent)
-    this.finish()
-}
-
 fun String?.orString(text: String): String =
     if (this != null && this.isNotBlank() && this.isNotEmpty()) this else text
+
+fun isOS12() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.S

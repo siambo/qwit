@@ -1,28 +1,27 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Theme.Qwit" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
-        <item name="colorPrimaryVariant">@color/extra_extra_light_gray</item>
-        <item name="background">@color/extra_extra_light_gray</item>
-        <item name="navigation_bar_background">@color/extra_extra_light_gray</item>
-
-        <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
-        <item name="android:windowLightStatusBar">true</item>
-
-        <item name="android:background">?attr/background</item>
-        <item name="android:navigationBarColor">?attr/navigation_bar_background</item>
-        <item name="android:windowLightNavigationBar">true</item>
-
+    <!-- Allows us to override platform level specific attributes in their
+         respective values-vXX folder. -->
+    <style name="Platform.Theme.Qwit" parent="Theme.Material3.DayNight">
+        <item name="android:statusBarColor">@color/black30</item>
     </style>
 
+    <!-- The actual theme we use. This varies for light theme (here),
+         and values-night for dark theme. -->
+    <!-- TODO Change colors here and in values-night when implementing M3 theme -->
+    <style name="Theme.Qwit" parent="Platform.Theme.Qwit">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
 
     <style name="Theme.Qwit.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.Qwit.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.Qwit.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
 
-    <style name="Theme.Qwit.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="Theme.Qwit.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
 </resources>

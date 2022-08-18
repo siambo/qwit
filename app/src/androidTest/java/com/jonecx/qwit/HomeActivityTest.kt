@@ -2,8 +2,6 @@ package com.jonecx.qwit
 
 import androidx.annotation.StringRes
 import androidx.compose.animation.ExperimentalAnimationApi
-import com.jonecx.qwit.ui.theme.QwitTheme
-import com.jonecx.qwit.ui.views.screen.HomeFrame
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
@@ -19,9 +17,6 @@ class HomeActivityTest : QwitTest() {
     @Test
     fun testHomeFrame() {
         composeTestRule.setContent {
-            QwitTheme {
-                HomeFrame(analytics, authenticateDao = authenticateDao)
-            }
         }
 
         assertBottomNavClicks(R.string.home, R.string.tt_home_screen_center_image)

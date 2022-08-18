@@ -1,15 +1,14 @@
 package com.jonecx.qwit.ui.viewmodel
 
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.jonecx.qwit.BuildConfig
 import com.jonecx.qwit.ui.settings.SettingsDataStore
 import com.jonecx.qwit.ui.usecases.OnboardingCompletedUseCase
-import com.jonecx.qwit.ui.viewmodel.LaunchPath.NavigateToMainActivity
 import com.jonecx.qwit.ui.viewmodel.LaunchPath.NavigateToOnboarding
+import com.jonecx.qwit.ui.viewmodel.LaunchPath.NavigateToSession
+import com.jonecx.qwit.ui.viewmodel.LaunchPath.NavigateToSplash
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthAccessTokenAndSecretReady
 import com.jonecx.qwit.util.Result
-import com.jonecx.qwit.util.Result.Loading
 import com.jonecx.qwit.util.data
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.map
@@ -18,14 +17,14 @@ import kotlinx.coroutines.flow.stateIn
 class SettingsViewModel(
     private val settingsDataStore: SettingsDataStore,
     onboardingCompletedUseCase: OnboardingCompletedUseCase,
-) : ViewModel() {
+) : QwitViewModel() {
 
     val launchDestination = onboardingCompletedUseCase(Unit).map { result ->
         when (result.data) {
-            false -> NavigateToMainActivity
+            false -> NavigateToSession
             else -> NavigateToOnboarding
         }
-    }.stateIn(viewModelScope, SharingStarted.Eagerly, Loading)
+    }.stateIn(viewModelScope, SharingStarted.Eagerly, NavigateToSplash)
 
     suspend fun getUserId() = settingsDataStore.userId
 
@@ -61,5 +60,6 @@ class SettingsViewModel(
 
 sealed class LaunchPath {
     object NavigateToOnboarding : LaunchPath()
-    object NavigateToMainActivity : LaunchPath()
+    object NavigateToSession : LaunchPath()
+    object NavigateToSplash : LaunchPath()
 }

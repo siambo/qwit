@@ -1,31 +1,34 @@
 object AppConfig {
     const val appId = "com.jonecx.qwit"
-    const val appMinSdk = 29
-    const val appTargetSdk = 31
+    const val appMinSdk = 21
+    const val appTargetSdk = 32
     const val appVersionCode = 1
     const val appVersionName = "qeggs"
-    const val appCompileSdkVersion = 31
+    const val appCompileSdkVersion = 32
 }
 
 object Versions {
-    const val compose_version = "1.0.3"
-    const val compose_navigation = "2.5.0"
-    const val compose_activity = "1.5.0-alpha02"
-    const val compose_accompanist_navigation_animation = "0.23.0"
+    const val compose_version = "1.2.0"
+    const val compose_compiler = "1.2.0"
+    const val compose_navigation = "2.5.1"
+    const val compose_activity = "1.5.1"
     const val core_ktx_version = "1.7.0"
-    const val kotlin_version = "1.5.30"
+    const val kotlin_version = "1.7.0"
     const val ktlint_version = "0.42.1"
     const val spotless_version = "6.1.2"
-    const val koin_version = "3.1.5"
+    const val koin_version = "3.2.0"
     const val retrofit_version = "2.9.0"
     const val okhttp_bom_version = "4.9.3"
     const val mockito_version = "4.5.1"
+    const val material_version = "1.5.0"
+    const val material3_version = "1.0.0-alpha15"
 }
 
 object Koin {
     const val koinAndroid = "io.insert-koin:koin-android:${Versions.koin_version}"
     const val koinCore = "io.insert-koin:koin-core:${Versions.koin_version}"
     const val koinTest = "io.insert-koin:koin-test:${Versions.koin_version}"
+    const val koinCompose = "io.insert-koin:koin-androidx-compose:${Versions.koin_version}"
 }
 
 object Kotlin {
@@ -37,7 +40,9 @@ object Appcompat {
 }
 
 object MaterialDesign {
-    const val material = "com.google.android.material:material:1.5.0"
+    const val material = "com.google.android.material:material:${Versions.material_version}"
+    const val material3 = "androidx.compose.material3:material3:${Versions.material3_version}"
+    const val material3WindowSize = "androidx.compose.material3:material3-window-size-class:${Versions.material3_version}"
 }
 
 object Timber {
@@ -71,13 +76,17 @@ object Compose {
     const val composeNavigation = "androidx.navigation:navigation-compose:${Versions.compose_navigation}"
     const val composeNavigationCommon = "androidx.navigation:navigation-common:${Versions.compose_navigation}"
     const val composeManifestTest = "androidx.compose.ui:ui-test-manifest:${Versions.compose_version}"
-    const val composeAccompanistNavigationAnimation = "com.google.accompanist:accompanist-navigation-animation:${Versions.compose_accompanist_navigation_animation}"
 }
 
 object LifeCycle {
-    const val lifeCycle = "androidx.lifecycle:lifecycle-runtime-ktx:2.3.1 "
+    const val lifeCycle = "androidx.lifecycle:lifecycle-runtime-ktx:2.5.1"
+    const val composeLifecycle = "androidx.lifecycle:lifecycle-runtime-compose:2.6.0-alpha01"
 }
 
 object DataStore {
     const val dataStorePreferences = "androidx.datastore:datastore-preferences:1.0.0"
+}
+
+object Tracing {
+    const val tracing = "androidx.tracing:tracing-ktx:1.1.0"
 }

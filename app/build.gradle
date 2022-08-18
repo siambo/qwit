@@ -49,35 +49,41 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-        useIR = true
         freeCompilerArgs += "-Xopt-in=kotlin.RequiresOptIn"
     }
     buildFeatures {
         compose true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion Versions.compose_version
-        kotlinCompilerVersion Versions.kotlin_version
+        kotlinCompilerExtensionVersion Versions.compose_compiler
     }
+    
     packagingOptions {
         resources {
             excludes += '/META-INF/{AL2.0,LGPL2.1}'
         }
     }
+    namespace 'com.jonecx.qwit'
 }
 
 dependencies {
     implementation Koin.koinCore
     implementation Koin.koinAndroid
+    implementation Koin.koinCompose
     implementation Timber.timber
     implementation Kotlin.coreKtx
     implementation Appcompat.appcompat
     implementation MaterialDesign.material
+    implementation MaterialDesign.material3
+    implementation MaterialDesign.material3WindowSize
     implementation Compose.composeUi
     implementation Compose.composeActivity
     implementation Compose.composeMaterial
     implementation Compose.composePreviewTool
+    implementation Compose.composeNavigation
+    implementation Compose.composeNavigationCommon
     implementation LifeCycle.lifeCycle
+    implementation LifeCycle.composeLifecycle
     implementation Retrofit.retrofit
     implementation Retrofit.moshConverter
     implementation(enforcedPlatform(OkHttp.okttpBom))
@@ -90,14 +96,12 @@ dependencies {
     androidTestImplementation Compose.composeJunit
     debugImplementation Compose.composeUiTooling
     debugImplementation Compose.composeManifestTest
-    implementation Compose.composeAccompanistNavigationAnimation
-    implementation Compose.composeNavigation
-    implementation Compose.composeNavigationCommon
+    implementation Tracing.tracing
 }
 
 ruler {
     abi.set("arm64-v8a")
     locale.set("en")
     screenDensity.set(480)
-    sdkVersion.set(31)
+    sdkVersion.set(30)
 }

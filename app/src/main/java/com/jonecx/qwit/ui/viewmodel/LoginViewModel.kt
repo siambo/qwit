@@ -1,31 +1,41 @@
 package com.jonecx.qwit.ui.viewmodel
 
 import android.net.Uri
-import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.jonecx.qwit.BuildConfig
 import com.jonecx.qwit.datasource.QwitClient
 import com.jonecx.qwit.model.User
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthAccessTokenAndSecretReady
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthTokenReady
 import com.jonecx.qwit.util.Result
-import com.jonecx.qwit.util.Result.Error
+import com.jonecx.qwit.util.Result.Loading
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.flow
 import kotlinx.coroutines.flow.flowOn
-import timber.log.Timber
+import kotlinx.coroutines.flow.stateIn
 
 class LoginViewModel(
     private val qwitClient: QwitClient,
-    private val settingsViewModel: SettingsViewModel
-) : ViewModel() {
+    private val settingsViewModel: SettingsViewModel,
+) : QwitViewModel() {
 
-    fun requestToken() = flow {
-        qwitClient.authService().getRequestToken(BuildConfig.CALLBACK_SCHEME).execute().body()?.let { body ->
-            val authenticateUrl = buildAuthenticateUrl(body.string())
-            emit(authenticateUrl)
-        } ?: emit(handleError("Unable to get the service url"))
-    }.catch { e -> emit(handleError(e)) }.flowOn(Dispatchers.IO)
+    val requestTokenState: StateFlow<Result<OauthStep>> = flow {
+        qwitClient.authService().getRequestToken(BuildConfig.CALLBACK_SCHEME).execute().body()
+            ?.let { body ->
+                val authenticateUrl = buildAuthenticateUrl(body.string())
+                emit(authenticateUrl)
+            }
+    }
+        .catch { e -> emit(handleError(e)) }
+        .flowOn(Dispatchers.IO)
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5_000),
+            initialValue = Loading
+        )
 
     fun getAccessTokenAndSecret(uri: Uri) = flow<Result<OauthStep>> {
         val oauthVerifier = uri.getQueryParameter(BuildConfig.OAUTH_VERIFIER)
@@ -41,7 +51,13 @@ class LoginViewModel(
                 } ?: emit(handleError("Authentication failed"))
             }
         }
-    }.catch { e -> emit(handleError(e)) }.flowOn(Dispatchers.IO)
+    }
+        .catch { e -> emit(handleError(e)) }.flowOn(Dispatchers.IO)
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.WhileSubscribed(5_000),
+            initialValue = Loading
+        )
 
     fun getUserId() = flow<Result<User>> {
         qwitClient.authService().getAccountCredentials().let {
@@ -66,16 +82,6 @@ class LoginViewModel(
             }
             else -> handleError("Token not available")
         }
-    }
-
-    private fun handleError(errorMessage: String = "Unknown error occurred"): Error {
-        Timber.e(errorMessage)
-        return Error(Exception(errorMessage))
-    }
-
-    private fun handleError(throwable: Throwable): Error {
-        Timber.e(throwable.localizedMessage)
-        return Error(throwable)
     }
 }
 
