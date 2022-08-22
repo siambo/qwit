@@ -23,8 +23,8 @@ class MainActivity : ComponentActivity(), KeepOnScreenCondition {
 
     @OptIn(ExperimentalMaterial3WindowSizeClassApi::class)
     override fun onCreate(savedInstanceState: Bundle?) {
-        val splash = installSplashScreen()
-        splash.setKeepOnScreenCondition(this)
+        installSplashScreen()
+            .also { it.setKeepOnScreenCondition(this) }
         super.onCreate(savedInstanceState)
 
         WindowCompat.setDecorFitsSystemWindows(window, false)
