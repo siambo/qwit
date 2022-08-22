@@ -24,23 +24,21 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.viewinterop.AndroidView
 import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
-import androidx.lifecycle.viewModelScope
 import com.jonecx.qwit.R.drawable
 import com.jonecx.qwit.R.string
 import com.jonecx.qwit.ui.design.image.Image
 import com.jonecx.qwit.ui.viewmodel.LaunchPath.NavigateToSession
 import com.jonecx.qwit.ui.viewmodel.LoginViewModel
 import com.jonecx.qwit.ui.viewmodel.OauthStep
+import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthAccessTokenAndSecretReady
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthCallbackReady
 import com.jonecx.qwit.ui.viewmodel.OauthStep.OauthTokenReady
-import com.jonecx.qwit.ui.viewmodel.SettingsViewModel
 import com.jonecx.qwit.util.Result
 import com.jonecx.qwit.util.Result.Error
 import com.jonecx.qwit.util.Result.Loading
 import com.jonecx.qwit.util.Result.Success
 import com.jonecx.qwit.util.data
 import com.jonecx.qwit.util.isAuthCallback
-import kotlinx.coroutines.launch
 import org.koin.androidx.compose.getViewModel
 
 @Composable
@@ -63,9 +61,7 @@ private fun SetStage(appState: QwitAppState) {
     ) {
         val loginViewModel = getViewModel<LoginViewModel>()
 
-        val settingsViewModel = getViewModel<SettingsViewModel>()
-
-        var uiState by mutableStateOf(loginViewModel.requestTokenState.collectAsStateWithLifecycle())
+        val uiState by mutableStateOf(loginViewModel.requestTokenState.collectAsStateWithLifecycle())
 
         when (uiState.value) {
             is Success -> {
@@ -77,12 +73,8 @@ private fun SetStage(appState: QwitAppState) {
                     is OauthCallbackReady -> {
                         loginViewModel.getAccessTokenAndSecret(oauthStep.uri)
                             .collectAsStateWithLifecycle().value.let { oauthDetails ->
-                                settingsViewModel.let {
-                                    it.viewModelScope.launch {
-                                        settingsViewModel.saveAuthenticationResult(oauthDetails)
-                                        appState.onboardState = NavigateToSession
-                                    }
-                                }
+                                if (oauthDetails.data is OauthAccessTokenAndSecretReady)
+                                    appState.onboardState = NavigateToSession
                             }
                     }
                     else -> ErrorView()
