@@ -18,7 +18,7 @@ data class Media(
     @field:Json(name = "media_url_https")
     val mediaUrlHttps: String,
     @field:Json(name = "sizes")
-    val size: MediaSize,
+    val size: Size,
     @field:Json(name = "source_status_id")
     val sourceStatusId: Long?,
     @field:Json(name = "source_status_id_str")
