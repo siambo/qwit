@@ -1,5 +1,6 @@
 package com.jonecx.qwit.datasource
 
+import com.jonecx.qwit.model.Tweet
 import com.jonecx.qwit.model.User
 import okhttp3.ResponseBody
 import retrofit2.Call
@@ -20,4 +21,7 @@ interface QwitApiService {
 
     @GET("1.1/account/verify_credentials.json")
     suspend fun getAccountCredentials(): User
+
+    @GET("1.1/statuses/home_timeline.json")
+    suspend fun getHomeTimeline(): List<Tweet>
 }

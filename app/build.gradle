@@ -98,6 +98,7 @@ dependencies {
     debugImplementation Compose.composeManifestTest
     implementation Tracing.tracing
     implementation Splash.splashScreen
+    implementation("io.coil-kt:coil-compose:2.2.0")
 }
 
 ruler {

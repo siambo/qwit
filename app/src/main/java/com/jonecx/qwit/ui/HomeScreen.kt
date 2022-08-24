@@ -11,6 +11,8 @@ import androidx.compose.foundation.layout.only
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.safeDrawing
 import androidx.compose.foundation.layout.windowInsetsPadding
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyListItemInfo
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.TopAppBarDefaults
@@ -18,6 +20,7 @@ import androidx.compose.material3.windowsizeclass.ExperimentalMaterial3WindowSiz
 import androidx.compose.material3.windowsizeclass.WindowSizeClass
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
+import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
@@ -28,10 +31,17 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.DpSize
 import androidx.compose.ui.unit.dp
 import androidx.core.view.doOnPreDraw
+import androidx.lifecycle.compose.ExperimentalLifecycleComposeApi
+import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.jonecx.qwit.R
+import com.jonecx.qwit.model.Tweet
 import com.jonecx.qwit.ui.design.component.QwitTopAppBar
 import com.jonecx.qwit.ui.design.image.Image
 import com.jonecx.qwit.ui.design.theme.QwitTheme
+import com.jonecx.qwit.ui.viewmodel.TweetViewModel
+import com.jonecx.qwit.util.data
+import com.squareup.moshi.Moshi
+import org.koin.androidx.compose.getViewModel
 
 @Composable
 fun HomeRoute(
@@ -41,12 +51,15 @@ fun HomeRoute(
     HomeScreen(windowSizeClass, modifier)
 }
 
-@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class)
+@OptIn(ExperimentalMaterial3Api::class, ExperimentalLayoutApi::class,
+    ExperimentalLifecycleComposeApi::class
+)
 @Composable
 fun HomeScreen(
     windowSizeClass: WindowSizeClass,
     modifier: Modifier = Modifier
 ) {
+
     QwitGradientBackground {
         Scaffold(
             topBar = {
@@ -66,6 +79,10 @@ fun HomeScreen(
             },
             containerColor = Color.Transparent
         ) { innerPadding ->
+            val tweetViewModel = getViewModel<TweetViewModel>()
+//            val homeTimelineUiState by tweetViewModel.homeTimelineState.collectAsStateWithLifecycle()
+//            print(homeTimelineUiState.data?.size ?: "")
+
             BoxWithConstraints(
                 modifier = modifier
                     .padding(innerPadding)
@@ -78,8 +95,11 @@ fun HomeScreen(
                         activity.reportFullyDrawn()
                     }
                 }
-                Row {
-                    Image(drawableResId = R.drawable.ic_home_filled, size = 50.dp, contentDescription = R.string.home)
+
+                LazyColumn {
+                    items(count = 11) {
+                        Tweet()
+                    }
                 }
             }
         }
