@@ -1,0 +1,3812 @@
+[
+  {
+    "created_at": "Mon Aug 22 21:35:00 +0000 2022",
+    "id": 1561829315108605955,
+    "id_str": "1561829315108605955",
+    "text": "RT @obretix: IRGC Pouya Air IL-76 cargo plane EP-PUS at Damascus airport today https://t.co/KUVmXwQOGQ arrived from Moscow Vnukovo via Tehr…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "obretix",
+          "name": "Samir",
+          "id": 1517300821,
+          "id_str": "1517300821",
+          "indices": [
+            3,
+            11
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/KUVmXwQOGQ",
+          "expanded_url": "https://www.google.com/maps?ll=33.408686,36.516837&q=33.408686,36.516837&hl=en&t=h&z=18",
+          "display_url": "google.com/maps?ll=33.408…",
+          "indices": [
+            79,
+            102
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2175773770,
+      "id_str": "2175773770",
+      "name": "Gerjon | חריון | غريون | ኼርዮን",
+      "screen_name": "Gerjon_",
+      "location": "🇳🇱 Nederland",
+      "description": "✈️ Aircraft Tracker | 🛰️ Image Analyst | 🛬🔥 Ilyushin Il-76 fan | 🌍Focus on 🇦🇪UAE, ME, Africa | Quoted by 🇺🇳, Al Jazeera, BBC, NY Times | DMs are open!",
+      "url": "https://t.co/59lqLwIKgO",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/59lqLwIKgO",
+              "expanded_url": "http://gerjon.substack.com",
+              "display_url": "gerjon.substack.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 46752,
+      "friends_count": 218,
+      "listed_count": 907,
+      "created_at": "Sun Nov 10 13:48:59 +0000 2013",
+      "favourites_count": 19132,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 26200,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1418292161976668167/Sw9AooPD_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1418292161976668167/Sw9AooPD_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2175773770/1639161073",
+      "profile_link_color": "2600FF",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Aug 22 21:03:31 +0000 2022",
+      "id": 1561821392051609602,
+      "id_str": "1561821392051609602",
+      "text": "IRGC Pouya Air IL-76 cargo plane EP-PUS at Damascus airport today https://t.co/KUVmXwQOGQ arrived from Moscow Vnuko… https://t.co/k1565vxLYq",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/KUVmXwQOGQ",
+            "expanded_url": "https://www.google.com/maps?ll=33.408686,36.516837&q=33.408686,36.516837&hl=en&t=h&z=18",
+            "display_url": "google.com/maps?ll=33.408…",
+            "indices": [
+              66,
+              89
+            ]
+          },
+          {
+            "url": "https://t.co/k1565vxLYq",
+            "expanded_url": "https://twitter.com/i/web/status/1561821392051609602",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1517300821,
+        "id_str": "1517300821",
+        "name": "Samir",
+        "screen_name": "obretix",
+        "location": "",
+        "description": "I like brave people who are able to think for themselves. geospatial IT – OSINT/IMINT",
+        "url": "https://t.co/cZhMfL0PAH",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/cZhMfL0PAH",
+                "expanded_url": "https://ko-fi.com/T6T4E1Y1",
+                "display_url": "ko-fi.com/T6T4E1Y1",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 45942,
+        "friends_count": 76,
+        "listed_count": 1077,
+        "created_at": "Fri Jun 14 18:50:25 +0000 2013",
+        "favourites_count": 16552,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 10894,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "000000",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/443501121877704704/aZgNxDfj_normal.png",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/443501121877704704/aZgNxDfj_normal.png",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1517300821/1514838898",
+        "profile_link_color": "4A614F",
+        "profile_sidebar_border_color": "000000",
+        "profile_sidebar_fill_color": "000000",
+        "profile_text_color": "000000",
+        "profile_use_background_image": false,
+        "has_extended_profile": false,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": [
+          
+        ]
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 10,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:34:57 +0000 2022",
+    "id": 1561829302471106561,
+    "id_str": "1561829302471106561",
+    "text": "Scores of Russian soldiers appear to have been hit by biological or chem... https://t.co/I8nrbGLZPJ via @YouTube… https://t.co/Za9hXCY6Lo",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "YouTube",
+          "name": "YouTube",
+          "id": 10228272,
+          "id_str": "10228272",
+          "indices": [
+            104,
+            112
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/I8nrbGLZPJ",
+          "expanded_url": "https://youtu.be/IclVuStEY6o",
+          "display_url": "youtu.be/IclVuStEY6o",
+          "indices": [
+            76,
+            99
+          ]
+        },
+        {
+          "url": "https://t.co/Za9hXCY6Lo",
+          "expanded_url": "https://twitter.com/i/web/status/1561829302471106561",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            114,
+            137
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 15484198,
+      "id_str": "15484198",
+      "name": "George Galloway",
+      "screen_name": "georgegalloway",
+      "location": "Great Britain",
+      "description": "Straight talking, straight forward.",
+      "url": "https://t.co/FpZVbX2evb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/FpZVbX2evb",
+              "expanded_url": "http://www.georgegalloway.com",
+              "display_url": "georgegalloway.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 440638,
+      "friends_count": 14126,
+      "listed_count": 3139,
+      "created_at": "Fri Jul 18 18:08:10 +0000 2008",
+      "favourites_count": 391912,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 361614,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1505942669423489025/N8FGBtq-_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1505942669423489025/N8FGBtq-_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/15484198/1616616578",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:33:07 +0000 2022",
+    "id": 1561828838925017093,
+    "id_str": "1561828838925017093",
+    "text": "FULL INTERVIEW: #Biden and crew wouldn’t bat an eye if Europe disappeare... https://t.co/HSjiWS8s8G via @YouTube",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "Biden",
+          "indices": [
+            16,
+            22
+          ]
+        }
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "YouTube",
+          "name": "YouTube",
+          "id": 10228272,
+          "id_str": "10228272",
+          "indices": [
+            104,
+            112
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/HSjiWS8s8G",
+          "expanded_url": "https://youtu.be/LrBkOxXayB4",
+          "display_url": "youtu.be/LrBkOxXayB4",
+          "indices": [
+            76,
+            99
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 15484198,
+      "id_str": "15484198",
+      "name": "George Galloway",
+      "screen_name": "georgegalloway",
+      "location": "Great Britain",
+      "description": "Straight talking, straight forward.",
+      "url": "https://t.co/FpZVbX2evb",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/FpZVbX2evb",
+              "expanded_url": "http://www.georgegalloway.com",
+              "display_url": "georgegalloway.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 440638,
+      "friends_count": 14126,
+      "listed_count": 3139,
+      "created_at": "Fri Jul 18 18:08:10 +0000 2008",
+      "favourites_count": 391912,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": true,
+      "statuses_count": 361614,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "C0DEED",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1505942669423489025/N8FGBtq-_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1505942669423489025/N8FGBtq-_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/15484198/1616616578",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 3,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:33:03 +0000 2022",
+    "id": 1561828825050320898,
+    "id_str": "1561828825050320898",
+    "text": ".@GabrielRockhill and I spoke about the endless stream of anti-soviet (anti-stalin) propaganda available via wester… https://t.co/kuOPbPkOO9",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "GabrielRockhill",
+          "name": "Gabriel Rockhill",
+          "id": 4298642056,
+          "id_str": "4298642056",
+          "indices": [
+            1,
+            17
+          ]
+        }
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/kuOPbPkOO9",
+          "expanded_url": "https://twitter.com/i/web/status/1561828825050320898",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2465958361,
+      "id_str": "2465958361",
+      "name": "Esha K",
+      "screen_name": "eshaLegal",
+      "location": "",
+      "description": "Host of @historic_ly podcast and Late Night's with Lenin",
+      "url": "https://t.co/pMAbxy0wPP",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/pMAbxy0wPP",
+              "expanded_url": "https://historicly.substack.com/",
+              "display_url": "historicly.substack.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 29770,
+      "friends_count": 1180,
+      "listed_count": 513,
+      "created_at": "Sun Apr 27 10:46:35 +0000 2014",
+      "favourites_count": 216524,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 251936,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1430947030894092292/duOq4jUQ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1430947030894092292/duOq4jUQ_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2465958361/1630879625",
+      "profile_link_color": "FF69B4",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:32:35 +0000 2022",
+    "id": 1561828704925392897,
+    "id_str": "1561828704925392897",
+    "text": "RT @danny_demeke: https://t.co/BceoI3rrPh",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "danny_demeke",
+          "name": "ዳንኤል ደመቀ",
+          "id": 1370365411443806220,
+          "id_str": "1370365411443806220",
+          "indices": [
+            3,
+            16
+          ]
+        }
+      ],
+      "urls": [
+        
+      ],
+      "media": [
+        {
+          "id": 1561784105234219009,
+          "id_str": "1561784105234219009",
+          "indices": [
+            18,
+            41
+          ],
+          "media_url": "http://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+          "url": "https://t.co/BceoI3rrPh",
+          "display_url": "pic.twitter.com/BceoI3rrPh",
+          "expanded_url": "https://twitter.com/danny_demeke/status/1561784108476506112/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1080,
+              "h": 1579,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 465,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 821,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1561784108476506112,
+          "source_status_id_str": "1561784108476506112",
+          "source_user_id": 1370365411443806220,
+          "source_user_id_str": "1370365411443806220"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1561784105234219009,
+          "id_str": "1561784105234219009",
+          "indices": [
+            18,
+            41
+          ],
+          "media_url": "http://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+          "url": "https://t.co/BceoI3rrPh",
+          "display_url": "pic.twitter.com/BceoI3rrPh",
+          "expanded_url": "https://twitter.com/danny_demeke/status/1561784108476506112/photo/1",
+          "type": "photo",
+          "sizes": {
+            "large": {
+              "w": 1080,
+              "h": 1579,
+              "resize": "fit"
+            },
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 465,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 821,
+              "h": 1200,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1561784108476506112,
+          "source_status_id_str": "1561784108476506112",
+          "source_user_id": 1370365411443806220,
+          "source_user_id_str": "1370365411443806220"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 259265680,
+      "id_str": "259265680",
+      "name": "Fasil",
+      "screen_name": "Gfasil",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 58030,
+      "friends_count": 315,
+      "listed_count": 21,
+      "created_at": "Tue Mar 01 14:11:46 +0000 2011",
+      "favourites_count": 277022,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 95552,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EDECE9",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1507033387323830279/P9ka7rAe_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1507033387323830279/P9ka7rAe_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/259265680/1643502159",
+      "profile_link_color": "0C397D",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E3E2DE",
+      "profile_text_color": "634047",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Aug 22 18:35:22 +0000 2022",
+      "id": 1561784108476506112,
+      "id_str": "1561784108476506112",
+      "text": "https://t.co/BceoI3rrPh",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          
+        ],
+        "urls": [
+          
+        ],
+        "media": [
+          {
+            "id": 1561784105234219009,
+            "id_str": "1561784105234219009",
+            "indices": [
+              0,
+              23
+            ],
+            "media_url": "http://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+            "url": "https://t.co/BceoI3rrPh",
+            "display_url": "pic.twitter.com/BceoI3rrPh",
+            "expanded_url": "https://twitter.com/danny_demeke/status/1561784108476506112/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 1080,
+                "h": 1579,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 465,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 821,
+                "h": 1200,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1561784105234219009,
+            "id_str": "1561784105234219009",
+            "indices": [
+              0,
+              23
+            ],
+            "media_url": "http://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FaySXnhWQAEVNtg.jpg",
+            "url": "https://t.co/BceoI3rrPh",
+            "display_url": "pic.twitter.com/BceoI3rrPh",
+            "expanded_url": "https://twitter.com/danny_demeke/status/1561784108476506112/photo/1",
+            "type": "photo",
+            "sizes": {
+              "large": {
+                "w": 1080,
+                "h": 1579,
+                "resize": "fit"
+              },
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 465,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 821,
+                "h": 1200,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1370365411443806220,
+        "id_str": "1370365411443806220",
+        "name": "ዳንኤል ደመቀ",
+        "screen_name": "danny_demeke",
+        "location": "",
+        "description": "😑",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 1673,
+        "friends_count": 590,
+        "listed_count": 0,
+        "created_at": "Fri Mar 12 13:25:57 +0000 2021",
+        "favourites_count": 4132,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 852,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1466472632484831233/Jx-VMr6__normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1466472632484831233/Jx-VMr6__normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": [
+          
+        ]
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 9,
+      "favorite_count": 143,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "zxx"
+    },
+    "is_quote_status": false,
+    "retweet_count": 9,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "zxx"
+  },
+  {
+    "created_at": "Mon Aug 22 21:32:20 +0000 2022",
+    "id": 1561828642505641986,
+    "id_str": "1561828642505641986",
+    "text": "Lessons from Ethiopia’s food crisis - Business Daily https://t.co/wdIvpQlo9x",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/wdIvpQlo9x",
+          "expanded_url": "https://www.businessdailyafrica.com/bd/opinion/columnists/lessons-from-ethiopias-food-crisis-3918124",
+          "display_url": "businessdailyafrica.com/bd/opinion/col…",
+          "indices": [
+            53,
+            76
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1357188308242169856,
+      "id_str": "1357188308242169856",
+      "name": "GLEAN - Global Ethiopian Advocacy Nexus",
+      "screen_name": "GleanEthiopia",
+      "location": "Washington, USA",
+      "description": "Effective Advocacy & Public Diplomacy for Peace, Security & Sustainable Development in Ethiopia & the HOA.\n\nRT = FYI",
+      "url": "https://t.co/1jy2RRhyFX",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/1jy2RRhyFX",
+              "expanded_url": "https://www.gleanethiopia.com/",
+              "display_url": "gleanethiopia.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 35129,
+      "friends_count": 1571,
+      "listed_count": 52,
+      "created_at": "Thu Feb 04 04:46:01 +0000 2021",
+      "favourites_count": 976,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 2975,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1358936465594605570/6HI2-y2d_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1358936465594605570/6HI2-y2d_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1357188308242169856/1621613433",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:30:00 +0000 2022",
+    "id": 1561828054648950784,
+    "id_str": "1561828054648950784",
+    "text": "UN calls for investigation of Dugina murder \n\nRead: https://t.co/jJa28jn6Sj https://t.co/1Y9C4C84FX",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/jJa28jn6Sj",
+          "expanded_url": "https://on.rt.com/c14o",
+          "display_url": "on.rt.com/c14o",
+          "indices": [
+            52,
+            75
+          ]
+        }
+      ],
+      "media": [
+        {
+          "id": 1561790679218589701,
+          "id_str": "1561790679218589701",
+          "indices": [
+            76,
+            99
+          ],
+          "media_url": "http://pbs.twimg.com/media/FayYWRhXEAUSAgj.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FayYWRhXEAUSAgj.jpg",
+          "url": "https://t.co/1Y9C4C84FX",
+          "display_url": "pic.twitter.com/1Y9C4C84FX",
+          "expanded_url": "https://twitter.com/RT_com/status/1561828054648950784/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 980,
+              "h": 551,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 980,
+              "h": 551,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 382,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1561790679218589701,
+          "id_str": "1561790679218589701",
+          "indices": [
+            76,
+            99
+          ],
+          "media_url": "http://pbs.twimg.com/media/FayYWRhXEAUSAgj.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FayYWRhXEAUSAgj.jpg",
+          "url": "https://t.co/1Y9C4C84FX",
+          "display_url": "pic.twitter.com/1Y9C4C84FX",
+          "expanded_url": "https://twitter.com/RT_com/status/1561828054648950784/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 980,
+              "h": 551,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 980,
+              "h": 551,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 680,
+              "h": 382,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"https://studio.twitter.com\" rel=\"nofollow\">Twitter Media Studio</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 64643056,
+      "id_str": "64643056",
+      "name": "RT",
+      "screen_name": "RT_com",
+      "location": "",
+      "description": "Freedom over censorship, truth over narrative. On air in 100+ countries. 10+ bn video views in 2020. Don’t want your news filtered - find us at https://t.co/ucB15kSJBr",
+      "url": "https://t.co/gtHSJ8TMVD",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/gtHSJ8TMVD",
+              "expanded_url": "http://RT.com",
+              "display_url": "RT.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/ucB15kSJBr",
+              "expanded_url": "http://t.me/rtnews",
+              "display_url": "t.me/rtnews",
+              "indices": [
+                144,
+                167
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 3086183,
+      "friends_count": 679,
+      "listed_count": 21547,
+      "created_at": "Tue Aug 11 06:12:45 +0000 2009",
+      "favourites_count": 2131,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 424441,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "1D1D1D",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1018833905082871808/F7RZerA1_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1018833905082871808/F7RZerA1_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/64643056/1643706218",
+      "profile_link_color": "3D990F",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EBEBEB",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular",
+      "withheld_in_countries": [
+        "AT",
+        "BE",
+        "BG",
+        "CY",
+        "CZ",
+        "DE",
+        "DK",
+        "EE",
+        "ES",
+        "FI",
+        "FR",
+        "GB",
+        "GR",
+        "HR",
+        "HU",
+        "IE",
+        "IT",
+        "LT",
+        "LU",
+        "LV",
+        "MT",
+        "NL",
+        "PL",
+        "PT",
+        "RO",
+        "SE",
+        "SI",
+        "SK"
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "withheld_in_countries": [
+      "AT",
+      "BE",
+      "BG",
+      "CY",
+      "CZ",
+      "DE",
+      "DK",
+      "EE",
+      "ES",
+      "FI",
+      "FR",
+      "GB",
+      "GR",
+      "HR",
+      "HU",
+      "IE",
+      "IT",
+      "LT",
+      "LU",
+      "LV",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SE",
+      "SI",
+      "SK"
+    ],
+    "is_quote_status": false,
+    "retweet_count": 6,
+    "favorite_count": 34,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:29:33 +0000 2022",
+    "id": 1561827944435171331,
+    "id_str": "1561827944435171331",
+    "text": "RT @mL_Nkrumaism: The real life \"Transporter\" is Dmitry Ovcharenko, he was transporting red army ammo when he got ambushed by Nazis.\n\ninste…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "mL_Nkrumaism",
+          "name": "Jupiter 🍛Chutney Jones (don't laugh!)🇬🇩",
+          "id": 874536222,
+          "id_str": "874536222",
+          "indices": [
+            3,
+            16
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 2465958361,
+      "id_str": "2465958361",
+      "name": "Esha K",
+      "screen_name": "eshaLegal",
+      "location": "",
+      "description": "Host of @historic_ly podcast and Late Night's with Lenin",
+      "url": "https://t.co/pMAbxy0wPP",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/pMAbxy0wPP",
+              "expanded_url": "https://historicly.substack.com/",
+              "display_url": "historicly.substack.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 29770,
+      "friends_count": 1180,
+      "listed_count": 513,
+      "created_at": "Sun Apr 27 10:46:35 +0000 2014",
+      "favourites_count": 216524,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 251936,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "000000",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme17/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme17/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1430947030894092292/duOq4jUQ_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1430947030894092292/duOq4jUQ_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/2465958361/1630879625",
+      "profile_link_color": "FF69B4",
+      "profile_sidebar_border_color": "000000",
+      "profile_sidebar_fill_color": "000000",
+      "profile_text_color": "000000",
+      "profile_use_background_image": false,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "regular",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Aug 22 18:46:21 +0000 2022",
+      "id": 1561786871730110466,
+      "id_str": "1561786871730110466",
+      "text": "The real life \"Transporter\" is Dmitry Ovcharenko, he was transporting red army ammo when he got ambushed by Nazis.… https://t.co/uxokRXkbiB",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/uxokRXkbiB",
+            "expanded_url": "https://twitter.com/i/web/status/1561786871730110466",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              116,
+              139
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 874536222,
+        "id_str": "874536222",
+        "name": "Jupiter 🍛Chutney Jones (don't laugh!)🇬🇩",
+        "screen_name": "mL_Nkrumaism",
+        "location": "Ga-Rankuwa, South Africa",
+        "description": "Grenadian 🌎 stepper,\neducator, and west watcher.",
+        "url": "https://t.co/Ej74CPAIhx",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/Ej74CPAIhx",
+                "expanded_url": "https://youtu.be/8KKxpuxpVfc",
+                "display_url": "youtu.be/8KKxpuxpVfc",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 6103,
+        "friends_count": 1660,
+        "listed_count": 37,
+        "created_at": "Thu Oct 11 23:46:28 +0000 2012",
+        "favourites_count": 232167,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 48262,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "070028",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1553221833947766789/3XLFrs78_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1553221833947766789/3XLFrs78_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/874536222/1657211618",
+        "profile_link_color": "191047",
+        "profile_sidebar_border_color": "D5DCCC",
+        "profile_sidebar_fill_color": "BFCAC2",
+        "profile_text_color": "4F5D82",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": false,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": [
+          
+        ]
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": true,
+      "quoted_status_id": 1329080547344224258,
+      "quoted_status_id_str": "1329080547344224258",
+      "quoted_status": {
+        "created_at": "Wed Nov 18 15:14:30 +0000 2020",
+        "id": 1329080547344224258,
+        "id_str": "1329080547344224258",
+        "text": "Dmitry Ovcharenko, Hero of the Soviet Union. On July 13, 1941 he singlehandedly fought 50 Nazis. One of them took h… https://t.co/tZywFGFKJJ",
+        "truncated": true,
+        "entities": {
+          "hashtags": [
+            
+          ],
+          "symbols": [
+            
+          ],
+          "user_mentions": [
+            
+          ],
+          "urls": [
+            {
+              "url": "https://t.co/tZywFGFKJJ",
+              "expanded_url": "https://twitter.com/i/web/status/1329080547344224258",
+              "display_url": "twitter.com/i/web/status/1…",
+              "indices": [
+                117,
+                140
+              ]
+            }
+          ]
+        },
+        "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+          "id": 812075961734860800,
+          "id_str": "812075961734860800",
+          "name": "Autistic Girl Summer",
+          "screen_name": "MissPavIichenko",
+          "location": "she/her",
+          "description": "pav. marxist-leninist, bi, feminist, & history nerd. learning russian. i love art, cats, mint chocolate chip ice cream, & ruthless criticism of all that exists.",
+          "url": null,
+          "entities": {
+            "description": {
+              "urls": [
+                
+              ]
+            }
+          },
+          "protected": false,
+          "followers_count": 15447,
+          "friends_count": 1123,
+          "listed_count": 44,
+          "created_at": "Thu Dec 22 23:22:51 +0000 2016",
+          "favourites_count": 160916,
+          "utc_offset": null,
+          "time_zone": null,
+          "geo_enabled": false,
+          "verified": false,
+          "statuses_count": 161018,
+          "lang": null,
+          "contributors_enabled": false,
+          "is_translator": false,
+          "is_translation_enabled": false,
+          "profile_background_color": "000000",
+          "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+          "profile_background_tile": false,
+          "profile_image_url": "http://pbs.twimg.com/profile_images/1526329704604655616/dkUKvv-L_normal.jpg",
+          "profile_image_url_https": "https://pbs.twimg.com/profile_images/1526329704604655616/dkUKvv-L_normal.jpg",
+          "profile_banner_url": "https://pbs.twimg.com/profile_banners/812075961734860800/1650286831",
+          "profile_link_color": "981CEB",
+          "profile_sidebar_border_color": "000000",
+          "profile_sidebar_fill_color": "000000",
+          "profile_text_color": "000000",
+          "profile_use_background_image": false,
+          "has_extended_profile": true,
+          "default_profile": false,
+          "default_profile_image": false,
+          "following": false,
+          "follow_request_sent": false,
+          "notifications": false,
+          "translator_type": "none",
+          "withheld_in_countries": [
+            
+          ]
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "is_quote_status": false,
+        "retweet_count": 71,
+        "favorite_count": 401,
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "possibly_sensitive_appealable": false,
+        "lang": "en"
+      },
+      "retweet_count": 4,
+      "favorite_count": 11,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": true,
+    "quoted_status_id": 1329080547344224258,
+    "quoted_status_id_str": "1329080547344224258",
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:22:01 +0000 2022",
+    "id": 1561826045468229633,
+    "id_str": "1561826045468229633",
+    "text": "@Gfasil ለሌሎችም ተስፋ ሆናችሁ እንጅ። በስንት ጊዜያቸው አሸነፉ።",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Gfasil",
+          "name": "Fasil",
+          "id": 259265680,
+          "id_str": "259265680",
+          "indices": [
+            0,
+            7
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1561825693029335040,
+    "in_reply_to_status_id_str": "1561825693029335040",
+    "in_reply_to_user_id": 259265680,
+    "in_reply_to_user_id_str": "259265680",
+    "in_reply_to_screen_name": "Gfasil",
+    "user": {
+      "id": 1360219863961206785,
+      "id_str": "1360219863961206785",
+      "name": "The Stranger",
+      "screen_name": "TheStrangerEth",
+      "location": "",
+      "description": "~ and I am gone!",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 6531,
+      "friends_count": 607,
+      "listed_count": 5,
+      "created_at": "Fri Feb 12 13:31:16 +0000 2021",
+      "favourites_count": 6680,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 4433,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1560303435525783552/QT-qbDbD_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1560303435525783552/QT-qbDbD_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1360219863961206785/1637189945",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "am"
+  },
+  {
+    "created_at": "Mon Aug 22 21:20:51 +0000 2022",
+    "id": 1561825754261950466,
+    "id_str": "1561825754261950466",
+    "text": "RT @afitz3105: @tjftrojer @AfarWatch @IbrahimAfarens1 @IzzN0good @SaveDanakali3 @abdogimor Congratulations Till! Yay!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "afitz3105",
+          "name": "Ann Fitz-Gerald",
+          "id": 1541790751,
+          "id_str": "1541790751",
+          "indices": [
+            3,
+            13
+          ]
+        },
+        {
+          "screen_name": "tjftrojer",
+          "name": "Till Trojer",
+          "id": 1463594352521924620,
+          "id_str": "1463594352521924620",
+          "indices": [
+            15,
+            25
+          ]
+        },
+        {
+          "screen_name": "AfarWatch",
+          "name": "Afar Watch",
+          "id": 1119403122311430144,
+          "id_str": "1119403122311430144",
+          "indices": [
+            26,
+            36
+          ]
+        },
+        {
+          "screen_name": "IbrahimAfarens1",
+          "name": "Ibrahim Afarensis",
+          "id": 771015823217586176,
+          "id_str": "771015823217586176",
+          "indices": [
+            37,
+            53
+          ]
+        },
+        {
+          "screen_name": "IzzN0good",
+          "name": "Danakiller",
+          "id": 1505054851822149632,
+          "id_str": "1505054851822149632",
+          "indices": [
+            54,
+            64
+          ]
+        },
+        {
+          "screen_name": "SaveDanakali3",
+          "name": "danakil👌",
+          "id": 1491504588104650754,
+          "id_str": "1491504588104650754",
+          "indices": [
+            65,
+            79
+          ]
+        },
+        {
+          "screen_name": "abdogimor",
+          "name": "Abdo Gimor",
+          "id": 2938519930,
+          "id_str": "2938519930",
+          "indices": [
+            80,
+            90
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1286008716442112002,
+      "id_str": "1286008716442112002",
+      "name": "Dawit",
+      "screen_name": "ervstours",
+      "location": "2QJ2+W3 Addis Ababa, Ethiopia",
+      "description": "For the best of Ethiopian & Eritrean travel by design. The Horn of Africa. An avid observer & student of global affairs. A political junkie. Kantian in spirit.",
+      "url": "https://t.co/mehGqWGZ5p",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mehGqWGZ5p",
+              "expanded_url": "http://ervstours.com",
+              "display_url": "ervstours.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 27357,
+      "friends_count": 2670,
+      "listed_count": 40,
+      "created_at": "Wed Jul 22 18:42:50 +0000 2020",
+      "favourites_count": 28233,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 24987,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1479650257579528198/Fvc0gC5G_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1479650257579528198/Fvc0gC5G_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1286008716442112002/1618770327",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Aug 22 20:37:44 +0000 2022",
+      "id": 1561814903127687169,
+      "id_str": "1561814903127687169",
+      "text": "@tjftrojer @AfarWatch @IbrahimAfarens1 @IzzN0good @SaveDanakali3 @abdogimor Congratulations Till! Yay!",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          {
+            "screen_name": "tjftrojer",
+            "name": "Till Trojer",
+            "id": 1463594352521924620,
+            "id_str": "1463594352521924620",
+            "indices": [
+              0,
+              10
+            ]
+          },
+          {
+            "screen_name": "AfarWatch",
+            "name": "Afar Watch",
+            "id": 1119403122311430144,
+            "id_str": "1119403122311430144",
+            "indices": [
+              11,
+              21
+            ]
+          },
+          {
+            "screen_name": "IbrahimAfarens1",
+            "name": "Ibrahim Afarensis",
+            "id": 771015823217586176,
+            "id_str": "771015823217586176",
+            "indices": [
+              22,
+              38
+            ]
+          },
+          {
+            "screen_name": "IzzN0good",
+            "name": "Danakiller",
+            "id": 1505054851822149632,
+            "id_str": "1505054851822149632",
+            "indices": [
+              39,
+              49
+            ]
+          },
+          {
+            "screen_name": "SaveDanakali3",
+            "name": "danakil👌",
+            "id": 1491504588104650754,
+            "id_str": "1491504588104650754",
+            "indices": [
+              50,
+              64
+            ]
+          },
+          {
+            "screen_name": "abdogimor",
+            "name": "Abdo Gimor",
+            "id": 2938519930,
+            "id_str": "2938519930",
+            "indices": [
+              65,
+              75
+            ]
+          }
+        ],
+        "urls": [
+          
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": 1561665179854802944,
+      "in_reply_to_status_id_str": "1561665179854802944",
+      "in_reply_to_user_id": 1463594352521924620,
+      "in_reply_to_user_id_str": "1463594352521924620",
+      "in_reply_to_screen_name": "tjftrojer",
+      "user": {
+        "id": 1541790751,
+        "id_str": "1541790751",
+        "name": "Ann Fitz-Gerald",
+        "screen_name": "afitz3105",
+        "location": "",
+        "description": "Director, Balsillie School of Int’l Affairs, Prof, Int Security, WLU; Adj Prof, Uni of W’loo, Sr Sec & Justice Adviser, UK; Horn of Africa; RUSI; IPD; proud mum",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 59238,
+        "friends_count": 347,
+        "listed_count": 69,
+        "created_at": "Sun Jun 23 20:17:54 +0000 2013",
+        "favourites_count": 6569,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 1378,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "C0DEED",
+        "profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1257746839027269633/GF0EdVo0_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1257746839027269633/GF0EdVo0_normal.jpg",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": true,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": [
+          
+        ]
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 2,
+      "favorite_count": 8,
+      "favorited": false,
+      "retweeted": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:20:37 +0000 2022",
+    "id": 1561825693029335040,
+    "id_str": "1561825693029335040",
+    "text": "@TheStrangerEth እኛ ተስፋ ያለን ነን",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "TheStrangerEth",
+          "name": "The Stranger",
+          "id": 1360219863961206785,
+          "id_str": "1360219863961206785",
+          "indices": [
+            0,
+            15
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1561825507846635521,
+    "in_reply_to_status_id_str": "1561825507846635521",
+    "in_reply_to_user_id": 1360219863961206785,
+    "in_reply_to_user_id_str": "1360219863961206785",
+    "in_reply_to_screen_name": "TheStrangerEth",
+    "user": {
+      "id": 259265680,
+      "id_str": "259265680",
+      "name": "Fasil",
+      "screen_name": "Gfasil",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 58030,
+      "friends_count": 315,
+      "listed_count": 21,
+      "created_at": "Tue Mar 01 14:11:46 +0000 2011",
+      "favourites_count": 277022,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 95552,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EDECE9",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1507033387323830279/P9ka7rAe_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1507033387323830279/P9ka7rAe_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/259265680/1643502159",
+      "profile_link_color": "0C397D",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E3E2DE",
+      "profile_text_color": "634047",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "am"
+  },
+  {
+    "created_at": "Mon Aug 22 21:20:24 +0000 2022",
+    "id": 1561825638851530754,
+    "id_str": "1561825638851530754",
+    "text": "RT @1EthiopiaTekdem: Quick Fact Sheet on #GERD #ColorsOfUnity https://t.co/FFIYJVEzXq",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "GERD",
+          "indices": [
+            41,
+            46
+          ]
+        },
+        {
+          "text": "ColorsOfUnity",
+          "indices": [
+            47,
+            61
+          ]
+        }
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "1EthiopiaTekdem",
+          "name": "Poétic Justice",
+          "id": 1494692177187848198,
+          "id_str": "1494692177187848198",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": [
+        
+      ],
+      "media": [
+        {
+          "id": 1559828173382209537,
+          "id_str": "1559828173382209537",
+          "indices": [
+            62,
+            85
+          ],
+          "media_url": "http://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+          "url": "https://t.co/FFIYJVEzXq",
+          "display_url": "pic.twitter.com/FFIYJVEzXq",
+          "expanded_url": "https://twitter.com/1EthiopiaTekdem/status/1559828227522236417/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 272,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 480,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 800,
+              "h": 2000,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1559828227522236417,
+          "source_status_id_str": "1559828227522236417",
+          "source_user_id": 1494692177187848198,
+          "source_user_id_str": "1494692177187848198"
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1559828173382209537,
+          "id_str": "1559828173382209537",
+          "indices": [
+            62,
+            85
+          ],
+          "media_url": "http://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+          "url": "https://t.co/FFIYJVEzXq",
+          "display_url": "pic.twitter.com/FFIYJVEzXq",
+          "expanded_url": "https://twitter.com/1EthiopiaTekdem/status/1559828227522236417/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "small": {
+              "w": 272,
+              "h": 680,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 480,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "large": {
+              "w": 800,
+              "h": 2000,
+              "resize": "fit"
+            }
+          },
+          "source_status_id": 1559828227522236417,
+          "source_status_id_str": "1559828227522236417",
+          "source_user_id": 1494692177187848198,
+          "source_user_id_str": "1494692177187848198"
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1286008716442112002,
+      "id_str": "1286008716442112002",
+      "name": "Dawit",
+      "screen_name": "ervstours",
+      "location": "2QJ2+W3 Addis Ababa, Ethiopia",
+      "description": "For the best of Ethiopian & Eritrean travel by design. The Horn of Africa. An avid observer & student of global affairs. A political junkie. Kantian in spirit.",
+      "url": "https://t.co/mehGqWGZ5p",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/mehGqWGZ5p",
+              "expanded_url": "http://ervstours.com",
+              "display_url": "ervstours.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 27357,
+      "friends_count": 2670,
+      "listed_count": 40,
+      "created_at": "Wed Jul 22 18:42:50 +0000 2020",
+      "favourites_count": 28233,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 24987,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1479650257579528198/Fvc0gC5G_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1479650257579528198/Fvc0gC5G_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1286008716442112002/1618770327",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Wed Aug 17 09:03:24 +0000 2022",
+      "id": 1559828227522236417,
+      "id_str": "1559828227522236417",
+      "text": "Quick Fact Sheet on #GERD #ColorsOfUnity https://t.co/FFIYJVEzXq",
+      "truncated": false,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "GERD",
+            "indices": [
+              20,
+              25
+            ]
+          },
+          {
+            "text": "ColorsOfUnity",
+            "indices": [
+              26,
+              40
+            ]
+          }
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          
+        ],
+        "urls": [
+          
+        ],
+        "media": [
+          {
+            "id": 1559828173382209537,
+            "id_str": "1559828173382209537",
+            "indices": [
+              41,
+              64
+            ],
+            "media_url": "http://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+            "url": "https://t.co/FFIYJVEzXq",
+            "display_url": "pic.twitter.com/FFIYJVEzXq",
+            "expanded_url": "https://twitter.com/1EthiopiaTekdem/status/1559828227522236417/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 272,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 480,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 800,
+                "h": 2000,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "extended_entities": {
+        "media": [
+          {
+            "id": 1559828173382209537,
+            "id_str": "1559828173382209537",
+            "indices": [
+              41,
+              64
+            ],
+            "media_url": "http://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+            "media_url_https": "https://pbs.twimg.com/media/FaWfdZkX0AE1L3K.jpg",
+            "url": "https://t.co/FFIYJVEzXq",
+            "display_url": "pic.twitter.com/FFIYJVEzXq",
+            "expanded_url": "https://twitter.com/1EthiopiaTekdem/status/1559828227522236417/photo/1",
+            "type": "photo",
+            "sizes": {
+              "thumb": {
+                "w": 150,
+                "h": 150,
+                "resize": "crop"
+              },
+              "small": {
+                "w": 272,
+                "h": 680,
+                "resize": "fit"
+              },
+              "medium": {
+                "w": 480,
+                "h": 1200,
+                "resize": "fit"
+              },
+              "large": {
+                "w": 800,
+                "h": 2000,
+                "resize": "fit"
+              }
+            }
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1494692177187848198,
+        "id_str": "1494692177187848198",
+        "name": "Poétic Justice",
+        "screen_name": "1EthiopiaTekdem",
+        "location": "World",
+        "description": "Advocate for world Peace! Tweets are my personal views, retweets are not endorsements. CLICK HERE for contents on 🇪🇹🇪🇹🇪🇹 https://t.co/C0gymy1Ozu",
+        "url": "https://t.co/kB04tC9TrR",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/kB04tC9TrR",
+                "expanded_url": "https://linktr.ee/wercolorsofunity",
+                "display_url": "linktr.ee/wercolorsofuni…",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              {
+                "url": "https://t.co/C0gymy1Ozu",
+                "expanded_url": "https://rb.gy/nqat2c",
+                "display_url": "rb.gy/nqat2c",
+                "indices": [
+                  121,
+                  144
+                ]
+              }
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 1791,
+        "friends_count": 2450,
+        "listed_count": 3,
+        "created_at": "Fri Feb 18 15:16:13 +0000 2022",
+        "favourites_count": 2192,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 8637,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1556665117416226826/kWqgxelS_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1556665117416226826/kWqgxelS_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1494692177187848198/1653740565",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": [
+          
+        ]
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 46,
+      "favorite_count": 52,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 46,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:19:53 +0000 2022",
+    "id": 1561825507846635521,
+    "id_str": "1561825507846635521",
+    "text": "@Gfasil Fact! አብሽር, ወደፊት ብቻ!",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Gfasil",
+          "name": "Fasil",
+          "id": 259265680,
+          "id_str": "259265680",
+          "indices": [
+            0,
+            7
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1561822017120247808,
+    "in_reply_to_status_id_str": "1561822017120247808",
+    "in_reply_to_user_id": 259265680,
+    "in_reply_to_user_id_str": "259265680",
+    "in_reply_to_screen_name": "Gfasil",
+    "user": {
+      "id": 1360219863961206785,
+      "id_str": "1360219863961206785",
+      "name": "The Stranger",
+      "screen_name": "TheStrangerEth",
+      "location": "",
+      "description": "~ and I am gone!",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 6531,
+      "friends_count": 607,
+      "listed_count": 5,
+      "created_at": "Fri Feb 12 13:31:16 +0000 2021",
+      "favourites_count": 6680,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 4433,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1560303435525783552/QT-qbDbD_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1560303435525783552/QT-qbDbD_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1360219863961206785/1637189945",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "am"
+  },
+  {
+    "created_at": "Mon Aug 22 21:19:29 +0000 2022",
+    "id": 1561825411046203398,
+    "id_str": "1561825411046203398",
+    "text": "Ukraine has restored a rail link to neighbouring Moldova after a 23-year hiatus and the connection could carry 10 m… https://t.co/4ach731M2R",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/4ach731M2R",
+          "expanded_url": "https://twitter.com/i/web/status/1561825411046203398",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1115874631,
+      "id_str": "1115874631",
+      "name": "CGTN",
+      "screen_name": "CGTNOfficial",
+      "location": "Beijing, China",
+      "description": "CGTN is an international media organization. It aims to provide global audiences with accurate and timely news coverage as well as rich audiovisual services.",
+      "url": "https://t.co/YSOcIymQSt",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/YSOcIymQSt",
+              "expanded_url": "http://www.CGTN.com",
+              "display_url": "CGTN.com",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 13286895,
+      "friends_count": 74,
+      "listed_count": 8438,
+      "created_at": "Thu Jan 24 03:18:59 +0000 2013",
+      "favourites_count": 208,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": true,
+      "statuses_count": 236032,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "131516",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme14/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1246467745975156738/hicJQmq0_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1246467745975156738/hicJQmq0_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1115874631/1586016045",
+      "profile_link_color": "009999",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "EFEFEF",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 1,
+    "favorite_count": 8,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:16:18 +0000 2022",
+    "id": 1561824607752990721,
+    "id_str": "1561824607752990721",
+    "text": "Enkuan Aderesachu 🍹🍹I always find the best cocktail bars 👑 Cheers &amp; Happy Monday! https://t.co/K8gJhuX9A8",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        
+      ],
+      "urls": [
+        
+      ],
+      "media": [
+        {
+          "id": 1561824600668852225,
+          "id_str": "1561824600668852225",
+          "indices": [
+            86,
+            109
+          ],
+          "media_url": "http://pbs.twimg.com/media/Fay3MwxVUAEbYq4.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Fay3MwxVUAEbYq4.jpg",
+          "url": "https://t.co/K8gJhuX9A8",
+          "display_url": "pic.twitter.com/K8gJhuX9A8",
+          "expanded_url": "https://twitter.com/EndAmharaPain/status/1561824607752990721/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 946,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 554,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 314,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "extended_entities": {
+      "media": [
+        {
+          "id": 1561824600668852225,
+          "id_str": "1561824600668852225",
+          "indices": [
+            86,
+            109
+          ],
+          "media_url": "http://pbs.twimg.com/media/Fay3MwxVUAEbYq4.jpg",
+          "media_url_https": "https://pbs.twimg.com/media/Fay3MwxVUAEbYq4.jpg",
+          "url": "https://t.co/K8gJhuX9A8",
+          "display_url": "pic.twitter.com/K8gJhuX9A8",
+          "expanded_url": "https://twitter.com/EndAmharaPain/status/1561824607752990721/photo/1",
+          "type": "photo",
+          "sizes": {
+            "thumb": {
+              "w": 150,
+              "h": 150,
+              "resize": "crop"
+            },
+            "large": {
+              "w": 946,
+              "h": 2048,
+              "resize": "fit"
+            },
+            "medium": {
+              "w": 554,
+              "h": 1200,
+              "resize": "fit"
+            },
+            "small": {
+              "w": 314,
+              "h": 680,
+              "resize": "fit"
+            }
+          }
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1365942986127773696,
+      "id_str": "1365942986127773696",
+      "name": "EndAmharaPain",
+      "screen_name": "EndAmharaPain",
+      "location": "",
+      "description": "Ethiopian #IAMFANO💚💛❤️ Ye Kuro Zega Seweld Jegna ✊🏾 Amhara Negn Birtu Lib Yalen 🦅 Amhara Negn Wub Tarik Aleyn 😎",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 1979,
+      "friends_count": 356,
+      "listed_count": 0,
+      "created_at": "Sun Feb 28 08:32:48 +0000 2021",
+      "favourites_count": 2405,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 5910,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1541500935305719809/2znqbI1h_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1541500935305719809/2znqbI1h_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1365942986127773696/1647168988",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 1,
+    "favorited": false,
+    "retweeted": false,
+    "possibly_sensitive": false,
+    "possibly_sensitive_appealable": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:15:49 +0000 2022",
+    "id": 1561824488198705154,
+    "id_str": "1561824488198705154",
+    "text": "@Gfasil @henokgabisa ... ብለህማ አታስደስተውም። ግግምናው ምትክ የለውም",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Gfasil",
+          "name": "Fasil",
+          "id": 259265680,
+          "id_str": "259265680",
+          "indices": [
+            0,
+            7
+          ]
+        },
+        {
+          "screen_name": "henokgabisa",
+          "name": "Hᴇɴᴏᴋ G. Gᴀʙɪsᴀ",
+          "id": 375202034,
+          "id_str": "375202034",
+          "indices": [
+            8,
+            20
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+    "in_reply_to_status_id": 1561824083079270400,
+    "in_reply_to_status_id_str": "1561824083079270400",
+    "in_reply_to_user_id": 259265680,
+    "in_reply_to_user_id_str": "259265680",
+    "in_reply_to_screen_name": "Gfasil",
+    "user": {
+      "id": 1360219863961206785,
+      "id_str": "1360219863961206785",
+      "name": "The Stranger",
+      "screen_name": "TheStrangerEth",
+      "location": "",
+      "description": "~ and I am gone!",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 6531,
+      "friends_count": 607,
+      "listed_count": 5,
+      "created_at": "Fri Feb 12 13:31:16 +0000 2021",
+      "favourites_count": 6680,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 4433,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1560303435525783552/QT-qbDbD_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1560303435525783552/QT-qbDbD_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1360219863961206785/1637189945",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "am"
+  },
+  {
+    "created_at": "Mon Aug 22 21:15:23 +0000 2022",
+    "id": 1561824378479951875,
+    "id_str": "1561824378479951875",
+    "text": "RT @Exoticethiopian: \"አባይ!..አፍሪካ ለአፍሪካዊ ጉዳዮች ቀዳማይ መፍትሄ የመሆኗ አዋጅⵑ\"\n8100 A\n#FilltheDam #GERD4ALL #Abayisthesourceofcivilization #SupportGERD…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        {
+          "text": "FilltheDam",
+          "indices": [
+            73,
+            84
+          ]
+        },
+        {
+          "text": "GERD4ALL",
+          "indices": [
+            85,
+            94
+          ]
+        },
+        {
+          "text": "Abayisthesourceofcivilization",
+          "indices": [
+            95,
+            125
+          ]
+        },
+        {
+          "text": "SupportGERD",
+          "indices": [
+            126,
+            138
+          ]
+        }
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "Exoticethiopian",
+          "name": "Exotic Ethiopian Adventures",
+          "id": 1122931228108308480,
+          "id_str": "1122931228108308480",
+          "indices": [
+            3,
+            19
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1369576148540157954,
+      "id_str": "1369576148540157954",
+      "name": "BeZዬ",
+      "screen_name": "BeZyee",
+      "location": "Global",
+      "description": "Here for #Ethiopia 💚💛♥️ https://t.co/FCvpL8GRpc",
+      "url": "https://t.co/5G2gLNTgTI",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/5G2gLNTgTI",
+              "expanded_url": "https://ethiopiarising.org/campaigns/index.php",
+              "display_url": "ethiopiarising.org/campaigns/inde…",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/FCvpL8GRpc",
+              "expanded_url": "https://t.me/colorsofunity",
+              "display_url": "t.me/colorsofunity",
+              "indices": [
+                24,
+                47
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 7423,
+      "friends_count": 910,
+      "listed_count": 12,
+      "created_at": "Wed Mar 10 09:11:38 +0000 2021",
+      "favourites_count": 16720,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 20217,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1550514512318439424/aBciZjTs_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1550514512318439424/aBciZjTs_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1369576148540157954/1659448714",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Aug 22 20:51:11 +0000 2022",
+      "id": 1561818288417644544,
+      "id_str": "1561818288417644544",
+      "text": "\"አባይ!..አፍሪካ ለአፍሪካዊ ጉዳዮች ቀዳማይ መፍትሄ የመሆኗ አዋጅⵑ\"\n8100 A\n#FilltheDam #GERD4ALL #Abayisthesourceofcivilization… https://t.co/w9HzVVCiEy",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          {
+            "text": "FilltheDam",
+            "indices": [
+              52,
+              63
+            ]
+          },
+          {
+            "text": "GERD4ALL",
+            "indices": [
+              64,
+              73
+            ]
+          },
+          {
+            "text": "Abayisthesourceofcivilization",
+            "indices": [
+              74,
+              104
+            ]
+          }
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/w9HzVVCiEy",
+            "expanded_url": "https://twitter.com/i/web/status/1561818288417644544",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              106,
+              129
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Web App</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1122931228108308480,
+        "id_str": "1122931228108308480",
+        "name": "Exotic Ethiopian Adventures",
+        "screen_name": "Exoticethiopian",
+        "location": "Ethiopia",
+        "description": "A Passionate Adventures Tourism Professional,Tourist Guide and Travel Blogger,Digital Marketing Expert, Travel Addicted, Love and learn about nature and culture",
+        "url": "https://t.co/Iyfbl4ywCr",
+        "entities": {
+          "url": {
+            "urls": [
+              {
+                "url": "https://t.co/Iyfbl4ywCr",
+                "expanded_url": "https://linktr.ee/exoticethiopian",
+                "display_url": "linktr.ee/exoticethiopian",
+                "indices": [
+                  0,
+                  23
+                ]
+              }
+            ]
+          },
+          "description": {
+            "urls": [
+              
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 4652,
+        "friends_count": 3113,
+        "listed_count": 11,
+        "created_at": "Mon Apr 29 18:30:42 +0000 2019",
+        "favourites_count": 28375,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": true,
+        "verified": false,
+        "statuses_count": 28943,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1556732594657665029/ribdaMy6_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1556732594657665029/ribdaMy6_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1122931228108308480/1652265478",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": false,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": [
+          
+        ]
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 4,
+      "favorite_count": 6,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "am"
+    },
+    "is_quote_status": false,
+    "retweet_count": 4,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "am"
+  },
+  {
+    "created_at": "Mon Aug 22 21:14:58 +0000 2022",
+    "id": 1561824271122538496,
+    "id_str": "1561824271122538496",
+    "text": "RT @askview11: Ethiopia currently generates more than 90% of its modern electricity from clean and green sources, including hydropower gene…",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "askview11",
+          "name": "Askview112🟢💛🔴",
+          "id": 1409769053800079361,
+          "id_str": "1409769053800079361",
+          "indices": [
+            3,
+            13
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1369576148540157954,
+      "id_str": "1369576148540157954",
+      "name": "BeZዬ",
+      "screen_name": "BeZyee",
+      "location": "Global",
+      "description": "Here for #Ethiopia 💚💛♥️ https://t.co/FCvpL8GRpc",
+      "url": "https://t.co/5G2gLNTgTI",
+      "entities": {
+        "url": {
+          "urls": [
+            {
+              "url": "https://t.co/5G2gLNTgTI",
+              "expanded_url": "https://ethiopiarising.org/campaigns/index.php",
+              "display_url": "ethiopiarising.org/campaigns/inde…",
+              "indices": [
+                0,
+                23
+              ]
+            }
+          ]
+        },
+        "description": {
+          "urls": [
+            {
+              "url": "https://t.co/FCvpL8GRpc",
+              "expanded_url": "https://t.me/colorsofunity",
+              "display_url": "t.me/colorsofunity",
+              "indices": [
+                24,
+                47
+              ]
+            }
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 7423,
+      "friends_count": 910,
+      "listed_count": 12,
+      "created_at": "Wed Mar 10 09:11:38 +0000 2021",
+      "favourites_count": 16720,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": false,
+      "verified": false,
+      "statuses_count": 20217,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "F5F8FA",
+      "profile_background_image_url": null,
+      "profile_background_image_url_https": null,
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1550514512318439424/aBciZjTs_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1550514512318439424/aBciZjTs_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1369576148540157954/1659448714",
+      "profile_link_color": "1DA1F2",
+      "profile_sidebar_border_color": "C0DEED",
+      "profile_sidebar_fill_color": "DDEEF6",
+      "profile_text_color": "333333",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": true,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "retweeted_status": {
+      "created_at": "Mon Aug 22 20:32:36 +0000 2022",
+      "id": 1561813611357642755,
+      "id_str": "1561813611357642755",
+      "text": "Ethiopia currently generates more than 90% of its modern electricity from clean and green sources, including hydrop… https://t.co/UKasb9QtmZ",
+      "truncated": true,
+      "entities": {
+        "hashtags": [
+          
+        ],
+        "symbols": [
+          
+        ],
+        "user_mentions": [
+          
+        ],
+        "urls": [
+          {
+            "url": "https://t.co/UKasb9QtmZ",
+            "expanded_url": "https://twitter.com/i/web/status/1561813611357642755",
+            "display_url": "twitter.com/i/web/status/1…",
+            "indices": [
+              117,
+              140
+            ]
+          }
+        ]
+      },
+      "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+      "in_reply_to_status_id": null,
+      "in_reply_to_status_id_str": null,
+      "in_reply_to_user_id": null,
+      "in_reply_to_user_id_str": null,
+      "in_reply_to_screen_name": null,
+      "user": {
+        "id": 1409769053800079361,
+        "id_str": "1409769053800079361",
+        "name": "Askview112🟢💛🔴",
+        "screen_name": "askview11",
+        "location": "Addis, LA",
+        "description": "በነፍሴ ምጠላው ነገር 'አስመሳይ' ሰው i am Ethiopia’s🇪🇹🇪🇹💪❤️📌",
+        "url": null,
+        "entities": {
+          "description": {
+            "urls": [
+              
+            ]
+          }
+        },
+        "protected": false,
+        "followers_count": 10611,
+        "friends_count": 2365,
+        "listed_count": 10,
+        "created_at": "Tue Jun 29 07:02:08 +0000 2021",
+        "favourites_count": 26574,
+        "utc_offset": null,
+        "time_zone": null,
+        "geo_enabled": false,
+        "verified": false,
+        "statuses_count": 28933,
+        "lang": null,
+        "contributors_enabled": false,
+        "is_translator": false,
+        "is_translation_enabled": false,
+        "profile_background_color": "F5F8FA",
+        "profile_background_image_url": null,
+        "profile_background_image_url_https": null,
+        "profile_background_tile": false,
+        "profile_image_url": "http://pbs.twimg.com/profile_images/1560370192848412674/l3Un1dMf_normal.jpg",
+        "profile_image_url_https": "https://pbs.twimg.com/profile_images/1560370192848412674/l3Un1dMf_normal.jpg",
+        "profile_banner_url": "https://pbs.twimg.com/profile_banners/1409769053800079361/1624994411",
+        "profile_link_color": "1DA1F2",
+        "profile_sidebar_border_color": "C0DEED",
+        "profile_sidebar_fill_color": "DDEEF6",
+        "profile_text_color": "333333",
+        "profile_use_background_image": true,
+        "has_extended_profile": true,
+        "default_profile": true,
+        "default_profile_image": false,
+        "following": false,
+        "follow_request_sent": false,
+        "notifications": false,
+        "translator_type": "none",
+        "withheld_in_countries": [
+          
+        ]
+      },
+      "geo": null,
+      "coordinates": null,
+      "place": null,
+      "contributors": null,
+      "is_quote_status": false,
+      "retweet_count": 15,
+      "favorite_count": 10,
+      "favorited": false,
+      "retweeted": false,
+      "possibly_sensitive": false,
+      "possibly_sensitive_appealable": false,
+      "lang": "en"
+    },
+    "is_quote_status": false,
+    "retweet_count": 15,
+    "favorite_count": 0,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  },
+  {
+    "created_at": "Mon Aug 22 21:14:13 +0000 2022",
+    "id": 1561824083079270400,
+    "id_str": "1561824083079270400",
+    "text": "@TheStrangerEth @henokgabisa ሄኖክ እኮ እልም ያለ በግ ነው",
+    "truncated": false,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        {
+          "screen_name": "TheStrangerEth",
+          "name": "The Stranger",
+          "id": 1360219863961206785,
+          "id_str": "1360219863961206785",
+          "indices": [
+            0,
+            15
+          ]
+        },
+        {
+          "screen_name": "henokgabisa",
+          "name": "Hᴇɴᴏᴋ G. Gᴀʙɪsᴀ",
+          "id": 375202034,
+          "id_str": "375202034",
+          "indices": [
+            16,
+            28
+          ]
+        }
+      ],
+      "urls": [
+        
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+    "in_reply_to_status_id": 1561823936064757768,
+    "in_reply_to_status_id_str": "1561823936064757768",
+    "in_reply_to_user_id": 1360219863961206785,
+    "in_reply_to_user_id_str": "1360219863961206785",
+    "in_reply_to_screen_name": "TheStrangerEth",
+    "user": {
+      "id": 259265680,
+      "id_str": "259265680",
+      "name": "Fasil",
+      "screen_name": "Gfasil",
+      "location": "",
+      "description": "",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 58030,
+      "friends_count": 315,
+      "listed_count": 21,
+      "created_at": "Tue Mar 01 14:11:46 +0000 2011",
+      "favourites_count": 277022,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 95552,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "EDECE9",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme3/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme3/bg.gif",
+      "profile_background_tile": false,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1507033387323830279/P9ka7rAe_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1507033387323830279/P9ka7rAe_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/259265680/1643502159",
+      "profile_link_color": "0C397D",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "E3E2DE",
+      "profile_text_color": "634047",
+      "profile_use_background_image": true,
+      "has_extended_profile": false,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 0,
+    "favorite_count": 2,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "am"
+  },
+  {
+    "created_at": "Mon Aug 22 21:14:12 +0000 2022",
+    "id": 1561824079333695488,
+    "id_str": "1561824079333695488",
+    "text": "People assume Semitic languages being spoken in Ethiopia is proof of admixture (not real \"Africans\"?) without knowi… https://t.co/jVPndgUNug",
+    "truncated": true,
+    "entities": {
+      "hashtags": [
+        
+      ],
+      "symbols": [
+        
+      ],
+      "user_mentions": [
+        
+      ],
+      "urls": [
+        {
+          "url": "https://t.co/jVPndgUNug",
+          "expanded_url": "https://twitter.com/i/web/status/1561824079333695488",
+          "display_url": "twitter.com/i/web/status/1…",
+          "indices": [
+            117,
+            140
+          ]
+        }
+      ]
+    },
+    "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+    "in_reply_to_status_id": null,
+    "in_reply_to_status_id_str": null,
+    "in_reply_to_user_id": null,
+    "in_reply_to_user_id_str": null,
+    "in_reply_to_screen_name": null,
+    "user": {
+      "id": 1444221312,
+      "id_str": "1444221312",
+      "name": "Abegaz",
+      "screen_name": "Dengeysadealer",
+      "location": "Menelikzemecha.com",
+      "description": "ፀረ-መሃይም 🙅🏾‍♂️🚨 | ክስቶ 🇨🇬",
+      "url": null,
+      "entities": {
+        "description": {
+          "urls": [
+            
+          ]
+        }
+      },
+      "protected": false,
+      "followers_count": 6374,
+      "friends_count": 289,
+      "listed_count": 15,
+      "created_at": "Mon May 20 16:51:31 +0000 2013",
+      "favourites_count": 26388,
+      "utc_offset": null,
+      "time_zone": null,
+      "geo_enabled": true,
+      "verified": false,
+      "statuses_count": 11536,
+      "lang": null,
+      "contributors_enabled": false,
+      "is_translator": false,
+      "is_translation_enabled": false,
+      "profile_background_color": "1A1B1F",
+      "profile_background_image_url": "http://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme9/bg.gif",
+      "profile_background_tile": true,
+      "profile_image_url": "http://pbs.twimg.com/profile_images/1545769955290931201/U0MhfgYT_normal.jpg",
+      "profile_image_url_https": "https://pbs.twimg.com/profile_images/1545769955290931201/U0MhfgYT_normal.jpg",
+      "profile_banner_url": "https://pbs.twimg.com/profile_banners/1444221312/1659298939",
+      "profile_link_color": "2FC2EF",
+      "profile_sidebar_border_color": "FFFFFF",
+      "profile_sidebar_fill_color": "252429",
+      "profile_text_color": "666666",
+      "profile_use_background_image": true,
+      "has_extended_profile": true,
+      "default_profile": false,
+      "default_profile_image": false,
+      "following": true,
+      "follow_request_sent": false,
+      "notifications": false,
+      "translator_type": "none",
+      "withheld_in_countries": [
+        
+      ]
+    },
+    "geo": null,
+    "coordinates": null,
+    "place": null,
+    "contributors": null,
+    "is_quote_status": false,
+    "retweet_count": 2,
+    "favorite_count": 8,
+    "favorited": false,
+    "retweeted": false,
+    "lang": "en"
+  }
+]

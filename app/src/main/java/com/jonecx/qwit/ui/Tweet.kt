@@ -5,6 +5,7 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Icon
+import androidx.compose.material3.LocalTextStyle
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -14,19 +15,24 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.rememberVectorPainter
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.*
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
 import com.jonecx.qwit.R
+import com.jonecx.qwit.model.Tweet
 import com.jonecx.qwit.ui.design.theme.QwitTypography
+import com.jonecx.qwit.util.toDate
 
 
 @Composable
-fun Tweet() {
+fun TweetView(tweet: Tweet) {
     Column(
         modifier = Modifier
             .padding(start = 20.dp, end = 20.dp, top = 10.dp, bottom = 10.dp)
@@ -45,16 +51,14 @@ fun Tweet() {
             )
         }
         Row(modifier = Modifier.padding(top = 2.dp)) {
-            CircleAvatar()
+            CircleAvatar(tweet)
             Column(modifier = Modifier.padding(start = 8.dp)) {
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    Text(text = "Garland Nixon ", style = QwitTypography.titleMedium)
-                    Text("@GarlandNixon", style = QwitTypography.bodyMedium,color = Color.Gray)
-                    Text(" • ", style = QwitTypography.bodyMedium, color = Color.Gray)
-                    Text("12Hr", style = QwitTypography.bodyMedium, color = Color.Gray)
+                Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.fillMaxWidth()) {
+                    AuthorNameView(tweet = tweet, modifier = Modifier.weight(0.7f, fill = false))
+                    Text(modifier = Modifier.weight(0.3f), text = " • ${tweet.createdAt.toDate()}", style = QwitTypography.bodyMedium, color = Color.Gray, maxLines = 1)
                 }
                 Text(
-                    text = "UXR/UX: You can only bring one item to a remote island to assist your research of native use of tools and usability. What do you bring? #TellMeAboutYou",
+                    text =  tweet.text,
                     style = QwitTypography.bodyLarge
                 )
                 Row(
@@ -63,18 +67,49 @@ fun Tweet() {
                         .fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceBetween
                 ){
-                    TweetAction(drawableResId = R.drawable.ic_replies, actionCount = "200")
-                    TweetAction(size = 20.dp, drawableResId = R.drawable.ic_retweet, actionCount = "124")
-                    TweetAction(size = 19.dp, drawableResId = R.drawable.ic_heart_outline, actionCount = "5023")
+                    TweetAction(drawableResId = R.drawable.ic_replies, actionCount = if (tweet.replyCount > 0) tweet.retweetCount else "")
+                    TweetAction(size = 20.dp, drawableResId = R.drawable.ic_retweet, actionCount = if ("0" == tweet.retweetCount) "" else tweet.retweetCount)
+                    TweetAction(size = 19.dp, drawableResId = R.drawable.ic_heart_outline, actionCount = if (tweet.favoriteCount > 0) tweet.favoriteCount.toString() else "")
                     TweetAction(drawableResId = R.drawable.ic_share, actionCount = "")
                 }
             }
         }
         Row(modifier = Modifier.padding(start = 9.dp, top = 3.dp), verticalAlignment = Alignment.CenterVertically) {
-            CircleAvatar(37.dp)
+            CircleAvatar(tweet, 37.dp)
             Text("Show this thread", modifier = Modifier.padding(start = 17.dp))
         }
     }
+}
+
+@Composable
+private fun AuthorNameView(modifier: Modifier, tweet: Tweet) {
+    Text(
+        buildAnnotatedString {
+            val authorName = "${tweet.user.name} @${tweet.user.screenName}"
+            append(authorName)
+            addStyle(
+                style = SpanStyle(
+                    fontWeight = FontWeight.W700,
+                    fontSize = 16.sp,
+                    letterSpacing = 0.1.sp
+                ),
+                start = 0,
+                end = authorName.indexOf("@") - 1
+            )
+            addStyle(
+                style = SpanStyle(
+                    fontWeight = FontWeight.W400,
+                    fontSize = 14.sp,
+                    letterSpacing = 0.25.sp
+                ),
+                start = authorName.indexOf("@"),
+                end = authorName.length - 1
+            )
+        },
+        maxLines = 1,
+        overflow = TextOverflow.Ellipsis,
+        modifier = modifier
+    )
 }
 
 @Composable
@@ -89,8 +124,8 @@ fun TweetAction(size: Dp = 17.dp, @DrawableRes drawableResId: Int, actionCount: 
 }
 
 @Composable
-fun CircleAvatar(size: Dp = 55.dp) {
+fun CircleAvatar(tweet: Tweet, size: Dp = 55.dp) {
     AsyncImage(modifier = Modifier
         .size(size)
-        .clip(CircleShape), model = "https://pbs.twimg.com/profile_images/1272581069297135618/TIgPXQ81_400x400.jpg", contentDescription = "I like")
+        .clip(CircleShape), model = tweet.user.profileImageUrlHttps, contentDescription = tweet.user.name)
 }

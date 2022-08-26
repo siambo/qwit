@@ -30,7 +30,7 @@ data class Tweet(
     @field:Json(name = "in_reply_to_screen_name")
     val inReplyToScreenName: String?,
     @field:Json(name = "user")
-    val user: User?,
+    val user: User,
     @field:Json(name = "geo")
     val geo: Geo?,
     @field:Json(name = "coordinates")
@@ -50,13 +50,13 @@ data class Tweet(
     @field:Json(name = "quoted_status")
     val qoutedStatus: Tweet?,
     @field:Json(name = "reply_count")
-    val replyCount: Int?,
+    val replyCount: Int,
     @field:Json(name = "retweeted_status")
     val retweetedStatus: Tweet?,
     @field:Json(name = "retweet_count")
-    val retweetCount: String?,
+    val retweetCount: String,
     @field:Json(name = "favorite_count")
-    val favoriteCount: Int?,
+    val favoriteCount: Int,
     @field:Json(name = "favorited")
     val isFavorited: Boolean,
     @field:Json(name = "retweeted")
